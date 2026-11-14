@@ -1,0 +1,194 @@
+[
+  {
+    "id": "pudak",
+    "type": "culinary",
+    "name": "Pudak",
+    "category": "Culinary",
+    "keywords": [
+      "pudak",
+      "pudak gresik"
+    ],
+    "summary": {
+      "id": "Kue kukus tepung beras manis khas Gresik",
+      "en": "Gresik's signature sweet steamed rice-flour cake"
+    },
+    "details": {
+      "id": "Pudak telah dibuat di Gresik turun-temurun dan secara tradisi disajikan pada bulan Ramadan serta pesta pernikahan. Adonan dibungkus dan dikukus dalam 'ope', pelepah pinang, yang mengharumkan kue saat dimasak sekaligus menjadi pembungkus alami yang mudah terurai.",
+      "en": "Pudak has been made in Gresik for generations, traditionally served during Ramadan and at weddings. It's wrapped and steamed inside 'ope,' the sheath of the areca palm frond, which perfumes the cake as it cooks and doubles as a natural, biodegradable package."
+    },
+    "facts": {
+      "id": [
+        "Bahan: Tepung beras",
+        "Bahan: Santan",
+        "Bahan: Gula aren atau pandan",
+        "Bahan: Pelepah pinang (ope) untuk pembungkus"
+      ],
+      "en": [
+        "Ingredient: Rice flour",
+        "Ingredient: Coconut milk",
+        "Ingredient: Palm sugar or pandan",
+        "Ingredient: Areca palm sheath (ope) for wrapping"
+      ]
+    },
+    "destinationId": "sunan-giri",
+    "relatedDestinations": [
+      "sunan-giri"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "priceRange": {
+      "id": "Rp 15.000 – Rp 35.000 per bungkus",
+      "en": "Rp 15,000 – Rp 35,000 per pack"
+    }
+  },
+  {
+    "id": "nasi-krawu",
+    "type": "culinary",
+    "name": "Nasi Krawu",
+    "category": "Culinary",
+    "keywords": [
+      "nasi krawu",
+      "nasi krawu gresik"
+    ],
+    "summary": {
+      "id": "Daging sapi suwir berbumbu di atas nasi dengan tiga macam sambal",
+      "en": "Shredded spiced beef over rice with a trio of sambal"
+    },
+    "details": {
+      "id": "Nasi Krawu dianggap sebagai hidangan gurih paling ikonik Gresik, diyakini berakar dari tradisi Madura yang dibawa para pedagang yang menetap di kota pelabuhan ini, lalu disesuaikan dengan racikan bumbu setempat.",
+      "en": "Nasi Krawu is considered Gresik's most iconic savory dish, believed to have Madurese roots brought over by traders who settled in the port town, later adapted with local spice blends."
+    },
+    "facts": {
+      "id": [
+        "Bahan: Nasi putih kukus",
+        "Bahan: Daging sapi dan jeroan yang dimasak lama",
+        "Bahan: Serundeng (kelapa parut berbumbu)",
+        "Bahan: Tiga jenis sambal"
+      ],
+      "en": [
+        "Ingredient: Steamed rice",
+        "Ingredient: Slow-cooked beef and offal",
+        "Ingredient: Serundeng (spiced grated coconut)",
+        "Ingredient: Three types of sambal"
+      ]
+    },
+    "destinationId": "malik-ibrahim",
+    "relatedDestinations": [
+      "malik-ibrahim"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "priceRange": {
+      "id": "Rp 18.000 – Rp 30.000 per porsi",
+      "en": "Rp 18,000 – Rp 30,000 per plate"
+    }
+  },
+  {
+    "id": "bandeng",
+    "type": "culinary",
+    "name": "Otak-Otak Bandeng",
+    "category": "Culinary",
+    "keywords": [
+      "otak-otak bandeng",
+      "otak-otak bandeng gresik"
+    ],
+    "summary": {
+      "id": "Bandeng tanpa duri yang dibentuk ulang dan dibakar di atas arang sabut kelapa",
+      "en": "Deboned milkfish reshaped and grilled over coconut husk"
+    },
+    "details": {
+      "id": "Tambak-tambak ikan Gresik telah memasok bandeng ke seluruh Jawa selama berabad-abad. Otak-otak bandeng memperlihatkan keterampilan setempat mengeluarkan duri ikan secara utuh, lalu memasukkan kembali daging berbumbu ke dalam kulitnya sebelum dibakar.",
+      "en": "Gresik's fish farms have supplied bandeng (milkfish) to Java for centuries. Otak-otak bandeng showcases the local skill of deboning the fish whole, then returning the seasoned flesh to its own skin before grilling."
+    },
+    "facts": {
+      "id": [
+        "Bahan: Bandeng utuh",
+        "Bahan: Santan",
+        "Bahan: Bawang merah, bawang putih, ketumbar",
+        "Bahan: Daun pisang untuk membakar"
+      ],
+      "en": [
+        "Ingredient: Whole milkfish (bandeng)",
+        "Ingredient: Coconut milk",
+        "Ingredient: Shallot, garlic, coriander",
+        "Ingredient: Banana leaf for grilling"
+      ]
+    },
+    "destinationId": "bandar-grissee",
+    "relatedDestinations": [
+      "bandar-grissee"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "priceRange": {
+      "id": "Rp 25.000 – Rp 45.000 per buah",
+      "en": "Rp 25,000 – Rp 45,000 per piece"
+    }
+  },
+  {
+    "id": "rujak-cingur",
+    "type": "culinary",
+    "name": "Rujak Cingur",
+    "category": "Culinary",
+    "keywords": [
+      "rujak cingur",
+      "rujak cingur gresik"
+    ],
+    "summary": {
+      "id": "Sayuran campur dan moncong sapi dalam bumbu kacang-petis yang kental",
+      "en": "Mixed vegetables and beef muzzle in thick peanut-shrimp paste"
+    },
+    "details": {
+      "id": "Hidangan yang dikenal di seluruh pesisir Jawa Timur; versi Gresik cenderung sedikit lebih manis, mencerminkan selera setempat yang menonjolkan gula aren dan juga tampak pada makanan penutupnya.",
+      "en": "A dish shared across coastal East Java, Gresik's version leans slightly sweeter, reflecting the town's palm-sugar-forward taste that also shows up in its desserts."
+    },
+    "facts": {
+      "id": [
+        "Bahan: Cingur (moncong sapi) rebus",
+        "Bahan: Tauge, mentimun, kangkung",
+        "Bahan: Tahu dan tempe goreng",
+        "Bahan: Petis udang dan bumbu kacang tumbuk"
+      ],
+      "en": [
+        "Ingredient: Boiled cingur (beef muzzle)",
+        "Ingredient: Bean sprouts, cucumber, water spinach",
+        "Ingredient: Fried tofu and tempeh",
+        "Ingredient: Petis shrimp paste and ground peanut sauce"
+      ]
+    },
+    "destinationId": "kampung-kemasan",
+    "relatedDestinations": [
+      "kampung-kemasan"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "priceRange": {
+      "id": "Rp 15.000 – Rp 25.000 per porsi",
+      "en": "Rp 15,000 – Rp 25,000 per plate"
+    }
+  }
+]

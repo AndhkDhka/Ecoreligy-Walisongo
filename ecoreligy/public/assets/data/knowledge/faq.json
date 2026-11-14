@@ -1,0 +1,555 @@
+[
+  {
+    "id": "daftar-wali-songo",
+    "type": "faq",
+    "boost": 0,
+    "name": "daftar wali songo",
+    "category": "FAQ",
+    "keywords": [
+      "wali songo ada siapa saja",
+      "sembilan wali",
+      "list of wali songo",
+      "nine wali songo"
+    ],
+    "summary": {
+      "id": "Sembilan destinasi inti situs ini: Sunan Ampel, Maulana Malik Ibrahim, Sunan Giri, Sunan Drajat, Sunan Bonang, Menara & Makam Sunan Kudus, Sunan Muria, Sunan Kalijaga, Astana Sunan Gunung Jati. Sumber berbeda dalam menyebut anggota kelompok sembilan, dan situs ini memakai daftar tersebut sebagai kerangka perjalanan.",
+      "en": "The nine core destinations on this site: Sunan Ampel, Maulana Malik Ibrahim, Sunan Giri, Sunan Drajat, Sunan Bonang, Menara & Makam Sunan Kudus, Sunan Muria, Sunan Kalijaga, Astana Sunan Gunung Jati. Sources differ on who belongs to the group of nine; this site uses this list as the framework for its journeys."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-tersedia",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey tersedia",
+    "category": "FAQ",
+    "keywords": [
+      "journey apa saja",
+      "pilihan journey",
+      "rute wali songo",
+      "journey options",
+      "available journeys"
+    ],
+    "summary": {
+      "id": "Tersedia: Wali Songo Jawa Timur; Wali Songo Jawa Tengah; Wali Songo Jawa Barat; Perjalanan Lengkap Wali Songo; Gresik Heritage Journey. Journey mandiri dengan Passport gratis dan dapat dimulai dari halaman Lacak Journey.",
+      "en": "Available: East Java Wali Songo Journey; Central Java Wali Songo Journey; West Java Wali Songo Journey; Complete Wali Songo Journey; Gresik Heritage Journey. Self-guided journeys with the Passport are free and start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "passport-digital",
+    "type": "faq",
+    "boost": 0,
+    "name": "passport digital",
+    "category": "FAQ",
+    "keywords": [
+      "passport",
+      "paspor",
+      "passport digital",
+      "paspor digital",
+      "stempel",
+      "digital passport",
+      "stamp",
+      "check-in",
+      "checkin",
+      "progres journey"
+    ],
+    "summary": {
+      "id": "Passport mencatat stempel checkpoint per journey. Stempel GPS hanya diberikan untuk titik dengan koordinat terverifikasi; saat ini belum ada titik yang terverifikasi, jadi stempel dilakukan lewat check-in manual yang diberi label \"manual\". Progres tersimpan hanya di perangkat Anda. Fitur GPS belum diuji langsung di lapangan.",
+      "en": "The Passport records stamps per journey. GPS stamps are only given for points with verified coordinates; none are verified yet, so stamps are made with manual check-in labelled \"manual\". Progress is stored only on your device. The GPS feature has not been field-tested."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "cara-booking",
+    "type": "faq",
+    "boost": 0,
+    "name": "cara booking",
+    "category": "FAQ",
+    "keywords": [
+      "cara booking",
+      "cara pesan",
+      "booking",
+      "reservasi",
+      "pemesanan",
+      "how to book",
+      "reserve"
+    ],
+    "summary": {
+      "id": "Formulir ini menyimpan permintaan di perangkat Anda dan menghasilkan Booking ID; ini bukan konfirmasi. Hanya paket Gresik dari proyek awal yang dapat diajukan sebagai permintaan booking; journey lain hanya sebagai permintaan informasi karena belum ada operator, paket, atau harga terverifikasi.",
+      "en": "The form saves the request on your device and generates a Booking ID; it is not a confirmation. Only the Gresik packages from the original project can be sent as booking requests; other journeys are information inquiries only because no verified operator, package or price exists yet."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "reset-progres",
+    "type": "faq",
+    "boost": 0,
+    "name": "reset progres",
+    "category": "FAQ",
+    "keywords": [
+      "reset",
+      "hapus progres",
+      "reset progress",
+      "hapus riwayat",
+      "clear history",
+      "ulang journey"
+    ],
+    "summary": {
+      "id": "Reset satu journey hanya menghapus progres checkpoint journey itu; riwayat kunjungan global dan journey lain tidak berubah. \"Reset semua journey\" juga hanya menghapus progres journey. Riwayat kunjungan baru terhapus lewat tombol terpisah \"Hapus riwayat kunjungan\" dengan konfirmasi ganda.",
+      "en": "Resetting one journey only removes that journey's checkpoint progress; the global visit history and other journeys stay unchanged. \"Reset all journeys\" also only clears journey progress. The visit history is only removed by the separate \"Clear visit history\" button with a double confirmation."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "akui-kunjungan",
+    "type": "faq",
+    "boost": 0,
+    "name": "akui kunjungan",
+    "category": "FAQ",
+    "keywords": [
+      "akui kunjungan",
+      "kunjungan sebelumnya",
+      "recognise visit",
+      "recognize visit",
+      "earlier visit",
+      "sudah pernah check-in"
+    ],
+    "summary": {
+      "id": "Jika Anda pernah check-in di sebuah destinasi lewat journey lain, destinasi itu tidak otomatis dihitung. Tracker menawarkan tombol \"Akui kunjungan sebelumnya\"; stempel yang diakui diberi label jelas.",
+      "en": "If you checked in at a destination through another journey it is not counted automatically. The Tracker offers an \"Recognise earlier visit\" button; recognised stamps are labelled clearly."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "gps-tersedia",
+    "type": "faq",
+    "boost": 0,
+    "name": "gps tersedia",
+    "category": "FAQ",
+    "keywords": [
+      "gps",
+      "gps aktif",
+      "gps tidak aktif",
+      "kenapa gps",
+      "why gps",
+      "auto check-in",
+      "gps unavailable"
+    ],
+    "summary": {
+      "id": "GPS otomatis hanya aktif jika journey memiliki checkpoint dengan koordinat terverifikasi. Saat ini belum ada, sehingga tombol GPS dinonaktifkan dan Anda dapat memakai check-in manual. GPS belum diuji langsung di lapangan.",
+      "en": "Automatic GPS only turns on if the journey has checkpoints with verified coordinates. None exist yet, so the GPS button is disabled and you can use manual check-in. GPS has not been field-tested."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "jam-buka-harga",
+    "type": "faq",
+    "boost": 12,
+    "name": "jam buka harga",
+    "category": "FAQ",
+    "keywords": [
+      "jam buka",
+      "jam operasional",
+      "tiket masuk",
+      "harga tiket",
+      "biaya masuk",
+      "opening hours",
+      "ticket price",
+      "entrance fee",
+      "how much"
+    ],
+    "summary": {
+      "id": "Data jam buka, tiket, dan biaya belum tersedia karena belum terverifikasi. Mohon cek ke pengelola situs atau sumber resmi setempat sebelum berkunjung.",
+      "en": "Opening hours, ticket and fee data are not available because they are not verified. Please check with the site management or local official sources before visiting."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "transportasi",
+    "type": "faq",
+    "boost": 12,
+    "name": "transportasi",
+    "category": "FAQ",
+    "keywords": [
+      "transportasi",
+      "naik apa",
+      "cara ke makam",
+      "angkutan",
+      "how to get there",
+      "transport",
+      "shuttle",
+      "pemandu",
+      "guide available"
+    ],
+    "summary": {
+      "id": "Informasi transportasi, pemandu, dan shuttle belum tersedia di basis pengetahuan ini. Gunakan tautan Google Maps pada halaman destinasi (pencarian nama tempat) dan tanyakan pengelola setempat.",
+      "en": "Transport, guide and shuttle information is not available in this knowledge base. Use the Google Maps link on a destination page (a place-name search) and ask the local management."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "etika-ziarah",
+    "type": "faq",
+    "boost": 0,
+    "name": "etika ziarah",
+    "category": "FAQ",
+    "keywords": [
+      "etika ziarah",
+      "adab ziarah",
+      "berpakaian sopan",
+      "pakaian ziarah",
+      "dress code",
+      "etiquette",
+      "visiting etiquette",
+      "tata tertib makam"
+    ],
+    "summary": {
+      "id": "Berpakaianlah sopan, jaga ketenangan, ikuti arahan juru kunci atau pengelola, dan hormati peziarah lain. Aturan khusus tiap situs berbeda; lihat bagian Etika berkunjung pada halaman destinasi.",
+      "en": "Dress modestly, keep quiet, follow the caretaker's or management's instructions and respect other pilgrims. Rules differ per site; see the Visiting etiquette section on each destination page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "peta-jawa",
+    "type": "faq",
+    "boost": 0,
+    "name": "peta jawa",
+    "category": "FAQ",
+    "keywords": [
+      "peta",
+      "map",
+      "koordinat",
+      "coordinates",
+      "lokasi tepat",
+      "titik gps"
+    ],
+    "summary": {
+      "id": "Peta menampilkan penanda area perkiraan (garis putus-putus) karena koordinat tepat belum diverifikasi; penanda itu bukan titik makam. Tautan Google Maps mencari berdasarkan nama tempat.",
+      "en": "The map shows approximate-area markers (dashed ring) because exact coordinates are not verified yet; these are not the tomb's exact point. Google Maps links search by place name."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "darurat",
+    "type": "faq",
+    "boost": 0,
+    "name": "darurat",
+    "category": "FAQ",
+    "keywords": [
+      "darurat",
+      "emergency",
+      "ambulans",
+      "rumah sakit",
+      "hospital",
+      "polisi",
+      "police"
+    ],
+    "summary": {
+      "id": "Nomor darurat nasional yang umum: 112 (jika layanan tersedia di wilayah setempat), 119 (ambulans), 110 (polisi), 113 (pemadam kebakaran). Situs ini tidak memiliki data rumah sakit atau hotline wisata; hubungi layanan darurat resmi setempat atau cari fasilitas kesehatan terdekat melalui sumber resmi.",
+      "en": "Common national emergency numbers: 112 (where the service is available locally), 119 (ambulance), 110 (police), 113 (fire). This site holds no hospital or tourist-hotline data; contact local official emergency services or find the nearest health facility through official sources."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "sumber-data",
+    "type": "faq",
+    "boost": 0,
+    "name": "sumber data",
+    "category": "FAQ",
+    "keywords": [
+      "sumber data",
+      "dari mana data",
+      "akurat",
+      "accurate",
+      "sources",
+      "referensi",
+      "apakah benar"
+    ],
+    "summary": {
+      "id": "Setiap halaman destinasi mencantumkan referensi dan membedakan fakta, interpretasi akademik, dan tradisi. Beberapa sumber masih tingkat berita/jurnal dan belum semua data diverifikasi; lihat catatan verifikasi pada tiap halaman.",
+      "en": "Each destination page lists references and separates fact, scholarly interpretation and tradition. Some sources are news/journal level and not all data is verified; see the verification notes on each page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "greeting",
+    "type": "faq",
+    "boost": 0,
+    "name": "greeting",
+    "category": "FAQ",
+    "keywords": [
+      "halo",
+      "hai",
+      "hello",
+      "hi ",
+      "selamat pagi",
+      "assalamualaikum"
+    ],
+    "summary": {
+      "id": "Halo! Saya pemandu digital Wali Songo & Warisan Jawa. Tanyakan tentang sembilan wali, sejarah Islam di Jawa, journey, Passport, kuliner Gresik, atau cara booking.",
+      "en": "Hello! I am the Wali Songo & Java Heritage digital guide. Ask about the nine wali, the history of Islam in Java, journeys, the Passport, Gresik culinary, or how booking works."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-walisongo-east-java",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey walisongo east java",
+    "category": "FAQ",
+    "keywords": [
+      "wali songo jawa timur",
+      "east java wali songo journey",
+      "journey wali songo jawa timur",
+      "rute wali songo jawa timur"
+    ],
+    "summary": {
+      "id": "Journey \"Wali Songo Jawa Timur\" berisi checkpoint: Makam Sunan Ampel → Makam Maulana Malik Ibrahim → Makam Sunan Giri → Makam Sunan Drajat → Makam Sunan Bonang. Mulai dari halaman Lacak Journey.",
+      "en": "Journey \"East Java Wali Songo Journey\" has checkpoints: Makam Sunan Ampel → Makam Maulana Malik Ibrahim → Makam Sunan Giri → Makam Sunan Drajat → Makam Sunan Bonang. Start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-walisongo-central-java",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey walisongo central java",
+    "category": "FAQ",
+    "keywords": [
+      "wali songo jawa tengah",
+      "central java wali songo journey",
+      "journey wali songo jawa tengah",
+      "rute wali songo jawa tengah"
+    ],
+    "summary": {
+      "id": "Journey \"Wali Songo Jawa Tengah\" berisi checkpoint: Menara & Makam Sunan Kudus → Makam Sunan Muria → Makam Sunan Kalijaga. Mulai dari halaman Lacak Journey.",
+      "en": "Journey \"Central Java Wali Songo Journey\" has checkpoints: Menara & Makam Sunan Kudus → Makam Sunan Muria → Makam Sunan Kalijaga. Start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-walisongo-west-java",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey walisongo west java",
+    "category": "FAQ",
+    "keywords": [
+      "wali songo jawa barat",
+      "west java wali songo journey",
+      "journey wali songo jawa barat",
+      "rute wali songo jawa barat"
+    ],
+    "summary": {
+      "id": "Journey \"Wali Songo Jawa Barat\" berisi checkpoint: Astana Sunan Gunung Jati. Mulai dari halaman Lacak Journey.",
+      "en": "Journey \"West Java Wali Songo Journey\" has checkpoints: Astana Sunan Gunung Jati. Start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-walisongo-complete",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey walisongo complete",
+    "category": "FAQ",
+    "keywords": [
+      "perjalanan lengkap wali songo",
+      "complete wali songo journey",
+      "journey perjalanan lengkap wali songo",
+      "rute perjalanan lengkap wali songo"
+    ],
+    "summary": {
+      "id": "Journey \"Perjalanan Lengkap Wali Songo\" berisi checkpoint: Makam Sunan Ampel → Makam Maulana Malik Ibrahim → Makam Sunan Giri → Makam Sunan Drajat → Makam Sunan Bonang → Menara & Makam Sunan Kudus → Makam Sunan Muria → Makam Sunan Kalijaga → Astana Sunan Gunung Jati. Mulai dari halaman Lacak Journey.",
+      "en": "Journey \"Complete Wali Songo Journey\" has checkpoints: Makam Sunan Ampel → Makam Maulana Malik Ibrahim → Makam Sunan Giri → Makam Sunan Drajat → Makam Sunan Bonang → Menara & Makam Sunan Kudus → Makam Sunan Muria → Makam Sunan Kalijaga → Astana Sunan Gunung Jati. Start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  },
+  {
+    "id": "journey-gresik-heritage",
+    "type": "faq",
+    "boost": 0,
+    "name": "journey gresik heritage",
+    "category": "FAQ",
+    "keywords": [
+      "gresik heritage journey",
+      "journey gresik heritage journey",
+      "rute gresik heritage journey"
+    ],
+    "summary": {
+      "id": "Journey \"Gresik Heritage Journey\" berisi checkpoint: Makam Sunan Giri → Makam Maulana Malik Ibrahim → Bandar Grissee → Kampung Kemasan. Mulai dari halaman Lacak Journey.",
+      "en": "Journey \"Gresik Heritage Journey\" has checkpoints: Makam Sunan Giri → Makam Maulana Malik Ibrahim → Bandar Grissee → Kampung Kemasan. Start from the Track Journey page."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "actions": [],
+    "sources": []
+  }
+]

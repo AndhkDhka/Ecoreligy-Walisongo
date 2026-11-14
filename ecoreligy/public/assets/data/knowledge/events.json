@@ -1,0 +1,198 @@
+[
+  {
+    "id": "buka-luwur-sunan-kudus",
+    "type": "events",
+    "name": "Buka Luwur Sunan Kudus",
+    "category": "Events",
+    "keywords": [
+      "buka luwur sunan kudus",
+      "buka luwur at sunan kudus",
+      "buka luwur",
+      "luwur kudus",
+      "acara buka luwur sunan kudus",
+      "event buka luwur at sunan kudus"
+    ],
+    "summary": {
+      "id": "Buka Luwur adalah tradisi tahunan mengganti kain penutup (luwur) makam Sunan Kudus di kompleks Menara Kudus. Pada 9 Muharram hewan sumbangan dimasak menjadi uyah asem dan sego jangkrik, lalu puluhan ribu bungkus nasi dibagikan kepada masyarakat.",
+      "en": "Buka Luwur is an annual tradition of replacing the canopy cloth (luwur) over the tomb of Sunan Kudus in the Menara Kudus complex. On 9 Muharram donated animals are cooked into uyah asem and sego jangkrik, and tens of thousands of rice packs are then distributed to the public."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "month": {
+      "id": "Sekitar 10 Muharram (kalender Hijriah); tanggal Masehi bergeser setiap tahun",
+      "en": "Around 10 Muharram (Hijri calendar); the Gregorian date shifts every year"
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "sunan-kudus",
+    "actions": [
+      "destination"
+    ],
+    "sources": [
+      {
+        "title": "https://rri.co.id/en/art-and-culture/2519226/kudus-buka-luwur-tradition-distributes-34000-rice-packs-in-ritual",
+        "url": "https://rri.co.id/en/art-and-culture/2519226/kudus-buka-luwur-tradition-distributes-34000-rice-packs-in-ritual"
+      }
+    ],
+    "verificationNote": {
+      "id": "Tradisi ini punya sumber, tetapi jadwal perlu dikonfirmasi ke pengelola atau sumber resmi.",
+      "en": "This tradition has a source, but the schedule must be confirmed with the site management or official sources."
+    }
+  },
+  {
+    "id": "haul-malik-ibrahim-gresik",
+    "type": "events",
+    "name": "Haul Maulana Malik Ibrahim (Sunan Gresik)",
+    "category": "Events",
+    "keywords": [
+      "haul maulana malik ibrahim (sunan gresik)",
+      "haul of maulana malik ibrahim (sunan gresik)",
+      "acara haul maulana malik ibrahim (sunan gresik)",
+      "event haul of maulana malik ibrahim (sunan gresik)"
+    ],
+    "summary": {
+      "id": "Haul memperingati wafatnya Maulana Malik Ibrahim, tokoh penyebar Islam awal di Gresik yang dimakamkan di Desa Gapurosukolilo. Sumber yang dibuka hanya mencatat tanggal wafat beliau, bukan jadwal acara haul.",
+      "en": "The haul commemorates the death of Maulana Malik Ibrahim, an early Islamic preacher in Gresik buried in Gapurosukolilo village. The source opened records only his date of death, not an event schedule."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "month": {
+      "id": "Diperkirakan sekitar 12 Rabiul Awal (belum terverifikasi sebagai jadwal haul); tanggal Masehi bergeser setiap tahun",
+      "en": "Possibly around 12 Rabiul Awal (not verified as the haul schedule); the Gregorian date shifts every year"
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "malik-ibrahim",
+    "actions": [
+      "destination"
+    ],
+    "sources": [
+      {
+        "title": "https://www.trac.astra.co.id/en/blog/en-travel/wali-songo-pilgrimage-religious-trip-ahead-of-ramadan/900",
+        "url": "https://www.trac.astra.co.id/en/blog/en-travel/wali-songo-pilgrimage-religious-trip-ahead-of-ramadan/900"
+      }
+    ],
+    "verificationNote": {
+      "id": "Acara ini belum terverifikasi. jadwal perlu dikonfirmasi ke pengelola atau sumber resmi.",
+      "en": "This event is not verified. the schedule must be confirmed with the site management or official sources."
+    }
+  },
+  {
+    "id": "haul-sunan-giri",
+    "type": "events",
+    "name": "Haul Sunan Giri",
+    "category": "Events",
+    "keywords": [
+      "haul sunan giri",
+      "acara haul sunan giri",
+      "event haul sunan giri"
+    ],
+    "summary": {
+      "id": "Peringatan tahunan Sunan Giri di kompleks makam di Gresik. Waktu dan rangkaian acara belum diverifikasi dengan sumber.",
+      "en": "Annual commemoration of Sunan Giri at the tomb complex in Gresik. Timing and programme have not been verified against a source."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "month": {
+      "id": "Bulan Rabiul Awal (kalender Hijriah) menurut project awal; belum diverifikasi",
+      "en": "Rabi' al-Awwal (Hijri calendar) per the original project; unverified"
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "sunan-giri",
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Acara ini belum terverifikasi. jadwal perlu dikonfirmasi ke pengelola atau sumber resmi.",
+      "en": "This event is not verified. the schedule must be confirmed with the site management or official sources."
+    }
+  },
+  {
+    "id": "pasar-bandeng",
+    "type": "events",
+    "name": "Pasar Bandeng",
+    "category": "Events",
+    "keywords": [
+      "pasar bandeng",
+      "pasar bandeng (milkfish market)",
+      "acara pasar bandeng",
+      "event pasar bandeng (milkfish market)"
+    ],
+    "summary": {
+      "id": "Tradisi pasar bandeng di Gresik menjelang Lebaran. Rincian (misalnya pelelangan) belum diverifikasi dengan sumber.",
+      "en": "A milkfish market tradition in Gresik ahead of Eid. Details (such as an auction) have not been verified against a source."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "month": {
+      "id": "Menjelang Idul Fitri menurut project awal; belum diverifikasi",
+      "en": "Ahead of Eid al-Fitr per the original project; unverified"
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "bandar-grissee",
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Acara ini belum terverifikasi. jadwal perlu dikonfirmasi ke pengelola atau sumber resmi.",
+      "en": "This event is not verified. the schedule must be confirmed with the site management or official sources."
+    }
+  },
+  {
+    "id": "damar-kurung-festival",
+    "type": "events",
+    "name": "Festival Damar Kurung",
+    "category": "Events",
+    "keywords": [
+      "festival damar kurung",
+      "damar kurung festival",
+      "acara festival damar kurung",
+      "event damar kurung festival"
+    ],
+    "summary": {
+      "id": "Lampion kertas lukis damar kurung adalah kerajinan khas Gresik. Waktu dan lokasi festival belum diverifikasi dengan sumber.",
+      "en": "Painted paper damar kurung lanterns are a Gresik craft. The festival's timing and location have not been verified against a source."
+    },
+    "details": {
+      "id": "",
+      "en": ""
+    },
+    "month": {
+      "id": "Selama Ramadan menurut project awal; belum diverifikasi",
+      "en": "During Ramadan per the original project; unverified"
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "kampung-kemasan",
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Acara ini belum terverifikasi. jadwal perlu dikonfirmasi ke pengelola atau sumber resmi.",
+      "en": "This event is not verified. the schedule must be confirmed with the site management or official sources."
+    }
+  }
+]

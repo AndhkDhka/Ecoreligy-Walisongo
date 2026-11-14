@@ -1,0 +1,116 @@
+[
+  {
+    "id": "pudak-product",
+    "type": "umkm",
+    "name": "Pudak Oleh-Oleh",
+    "category": "Local Product",
+    "keywords": [
+      "pudak oleh-oleh",
+      "pudak oleh-oleh gresik"
+    ],
+    "summary": {
+      "id": "Kue kukus tepung beras, dikemas untuk dibawa pulang",
+      "en": "The steamed rice cake, packaged for travel"
+    },
+    "details": {
+      "id": "Dahulu camilan rumahan yang dibuat hanya menjelang hari raya keagamaan, kini pudak diproduksi setiap hari oleh pelaku UMKM rumahan yang memasok pasar setempat maupun peziarah yang mencari buah tangan.",
+      "en": "Once a household treat made only around religious holidays, pudak is now produced daily by home-based UMKM makers who supply both local markets and visiting pilgrims looking for a gift to bring home."
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "sunan-giri",
+    "relatedDestinations": [
+      "sunan-giri"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "price": {
+      "id": "Rp 30.000 – Rp 60.000 per kotak isi 10",
+      "en": "Rp 30,000 – Rp 60,000 per box of 10"
+    }
+  },
+  {
+    "id": "songkok",
+    "type": "umkm",
+    "name": "Songkok Gresik",
+    "category": "Local Product",
+    "keywords": [
+      "songkok gresik",
+      "songkok gresik gresik"
+    ],
+    "summary": {
+      "id": "Peci hitam dari kain laken, dijahit tangan dan dipakai di seluruh nusantara",
+      "en": "Hand-stitched black felt caps worn across the archipelago"
+    },
+    "details": {
+      "id": "Gresik adalah salah satu sentra produksi songkok di Indonesia, peci hitam yang dipakai di seluruh negeri untuk salat dan acara resmi. Beberapa kampung di sini telah mengkhususkan diri membuat songkok selama beberapa generasi.",
+      "en": "Gresik is one of Indonesia's main production centres for the songkok, the black cap worn nationwide for prayer and formal occasions. Several kampung here have specialised in songkok-making for multiple generations."
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "sunan-giri",
+    "relatedDestinations": [
+      "sunan-giri"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "price": {
+      "id": "Rp 50.000 – Rp 250.000 tergantung kain",
+      "en": "Rp 50,000 – Rp 250,000 depending on fabric"
+    }
+  },
+  {
+    "id": "batik",
+    "type": "umkm",
+    "name": "Batik Gresik",
+    "category": "Local Product",
+    "keywords": [
+      "batik gresik",
+      "batik gresik gresik"
+    ],
+    "summary": {
+      "id": "Motif batik pesisir yang terinspirasi kehidupan pelabuhan masa perdagangan",
+      "en": "Coastal batik motifs inspired by trade-era harbour life"
+    },
+    "details": {
+      "id": "Berbeda dengan batik keraton Jawa pedalaman, batik pesisir Gresik menyukai warna yang lebih berani dan motif dari kapal, ombak, dan barang dagangan, sebagai catatan visual identitas pelabuhan kota ini.",
+      "en": "Unlike the courtly batik of inland Java, Gresik's coastal batik favours bolder colour and motifs drawn from ships, waves, and trade goods — a visual record of the town's harbour identity."
+    },
+    "facts": {
+      "id": [],
+      "en": []
+    },
+    "destinationId": "kampung-kemasan",
+    "relatedDestinations": [
+      "kampung-kemasan"
+    ],
+    "actions": [
+      "destination"
+    ],
+    "sources": [],
+    "verificationNote": {
+      "id": "Deskripsi, harga, dan lokasi penjual berasal dari proyek awal (Gresik) dan belum diverifikasi dengan sumber.",
+      "en": "Description, price and seller location come from the original Gresik project and are not verified with a source."
+    },
+    "price": {
+      "id": "Rp 150.000 – Rp 800.000 per kain",
+      "en": "Rp 150,000 – Rp 800,000 per cloth"
+    }
+  }
+]

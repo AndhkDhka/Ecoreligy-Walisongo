@@ -1,0 +1,893 @@
+[
+  {
+    "id": "sunan-ampel",
+    "type": "tourism",
+    "name": "Makam Sunan Ampel",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan ampel",
+      "ziarah sunan ampel",
+      "lokasi sunan ampel",
+      "location of sunan ampel",
+      "visit sunan ampel",
+      "etika ziarah sunan ampel",
+      "etiquette sunan ampel",
+      "berkunjung ke sunan ampel",
+      "wisata sunan ampel"
+    ],
+    "summary": {
+      "id": "Makam Sunan Ampel berada di Surabaya, Jawa Timur. Sunan Ampel dikenal sebagai tokoh Wali Songo yang berbasis di Ampel Denta, Surabaya, tempat ia disebut mendirikan pesantren dan masjid. Banyak guru Wali Songo dikaitkan dengannya; data biografinya sebagian besar bersumber dari tradisi.",
+      "en": "Makam Sunan Ampel is in Surabaya, Jawa Timur. Sunan Ampel is remembered as a Wali Songo figure based at Ampel Denta, Surabaya, where he is said to have founded a pesantren and a mosque. Much of his biography rests on tradition."
+    },
+    "details": {
+      "id": "Etika berkunjung: Berpakaian sopan dan menutup aurat, menjaga ketenangan, mengikuti arahan juru kunci atau pengelola, dan tidak mengganggu peziarah yang sedang berdoa. Ikuti aturan setempat soal foto dan antrean, terutama saat ramai seperti bulan Ramadan.",
+      "en": "Visiting etiquette: Dress modestly, keep quiet, follow the caretaker's or management's guidance, and do not disturb pilgrims who are praying. Follow local rules on photography and queuing, especially during busy periods such as Ramadan."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Surabaya, Kota Surabaya, Jawa Timur"
+      ],
+      "en": [
+        "Region: Surabaya, Kota Surabaya, Jawa Timur"
+      ]
+    },
+    "destinationId": "sunan-ampel",
+    "relatedDestinations": [
+      "sunan-giri",
+      "sunan-bonang",
+      "malik-ibrahim"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Ampel Surabaya",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Ada Apa Saja di Makam Sunan Ampel? Ini Destinasi yang Bisa Dikunjungi — detikJatim",
+        "url": "https://www.detik.com/jatim/wisata/d-8233017/ada-apa-saja-di-makam-sunan-ampel-ini-destinasi-yang-bisa-dikunjungi"
+      },
+      {
+        "title": "Masjid Ampel, Tanah Pinjaman Raja Demi Akhlak Arek Suroboyo — CNN Indonesia (30 April 2020)",
+        "url": "https://www.cnnindonesia.com/gaya-hidup/20200430130416-269-498844/masjid-ampel-tanah-pinjaman-raja-demi-akhlak-arek-suroboyo"
+      },
+      {
+        "title": "Kepercayaan Peziarah terhadap Air Sumur Makam Sunan Ampel (BAB I, penulis tidak tercantum) — Repositori UMM",
+        "url": "https://eprints.umm.ac.id/id/eprint/10568/2/BAB%20I.pdf"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "malik-ibrahim",
+    "type": "tourism",
+    "name": "Makam Maulana Malik Ibrahim",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam maulana malik ibrahim",
+      "ziarah maulana malik ibrahim",
+      "lokasi maulana malik ibrahim",
+      "location of maulana malik ibrahim",
+      "visit maulana malik ibrahim",
+      "etika ziarah maulana malik ibrahim",
+      "etiquette maulana malik ibrahim",
+      "berkunjung ke maulana malik ibrahim",
+      "wisata maulana malik ibrahim"
+    ],
+    "summary": {
+      "id": "Makam Maulana Malik Ibrahim berada di Gresik, Jawa Timur. Maulana Malik Ibrahim dimakamkan di Gapurosukolilo, Gresik, dan sering disebut sebagai tokoh penyebar Islam paling awal dalam tradisi Wali Songo. Asal-usulnya diperdebatkan, sedangkan keterangan paling kokoh tentang dirinya berasal dari inskripsi nisan di makamnya.",
+      "en": "Makam Maulana Malik Ibrahim is in Gresik, Jawa Timur. Maulana Malik Ibrahim is buried in Gapurosukolilo, Gresik, and is often described as the earliest figure of the Wali Songo tradition. His origin is debated, and the firmest evidence about him is the inscription on his tombstone."
+    },
+    "details": {
+      "id": "Etika berkunjung: Makam adalah tempat ziarah aktif. Pengunjung diharapkan berpakaian sopan, menjaga ketenangan, menghormati peziarah yang sedang berdoa, dan mengikuti arahan pengelola setempat. Ini panduan umum, bukan aturan resmi yang kami verifikasi.",
+      "en": "Visiting etiquette: The tomb is an active pilgrimage site. Visitors are expected to dress modestly, keep quiet, respect pilgrims who are praying, and follow local management's instructions. This is general guidance, not an official rule we verified."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Gresik, Kabupaten Gresik, Jawa Timur"
+      ],
+      "en": [
+        "Region: Gresik, Kabupaten Gresik, Jawa Timur"
+      ]
+    },
+    "destinationId": "malik-ibrahim",
+    "relatedDestinations": [
+      "sunan-giri",
+      "sunan-ampel",
+      "bandar-grissee"
+    ],
+    "relatedCulinary": [
+      "nasi-krawu",
+      "bandeng"
+    ],
+    "relatedUmkm": [
+      "batik",
+      "songkok"
+    ],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Maulana Malik Ibrahim Gresik",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Kenapa Maulana Malik Ibrahim Tak Tercatat di Atlas Wali Songo? — NU Online",
+        "url": "https://nu.or.id/nasional/kenapa-maulana-malik-ibrahim-tak-tercatat-di-atlas-wali-songo-uNiMh"
+      },
+      {
+        "title": "Dakwah Sunan Gresik membangun sistem irigasi untuk atasi krisis pangan di tanah Jawa — Good News from Indonesia",
+        "url": "https://www.goodnewsfromindonesia.id/2022/04/08/dakwah-sunan-gresik-membangun-sistem-irigasi-untuk-atasi-krisis-pangan-di-tanah-jawa"
+      },
+      {
+        "title": "Makam Maulana Malik Ibrahim (page on Gresik tourism) — ICLS Universitas Muhammadiyah Gresik",
+        "url": "https://icls.umg.ac.id/?p=324"
+      },
+      {
+        "title": "5 dari 9 Makam Wali Songo Ada di Jawa Timur Lho, Ini Detail Lengkapnya — detikJatim",
+        "url": "https://www.detik.com/jatim/wisata/d-5916721/5-dari-9-makam-wali-songo-ada-di-jawa-timur-lho-ini-detail-lengkapnya"
+      },
+      {
+        "title": "Analisis Dampak Pengembangan Pariwisata di Obyek Wisata Religi Makam Sunan Maulana Malik Ibrahim (skripsi) — Universitas Brawijaya (M. Fahrizal Anwar, 2016)",
+        "url": "https://repository.ub.ac.id/119400/1/SKRIPSIFULL.pdf"
+      },
+      {
+        "title": "Arsitektural Masjid Jami' Gresik: Analisis Bentuk, Simbol dan Makna (skripsi) — UIN Sunan Ampel Surabaya (M. Sulthan Haryo Wibowo, 2019)",
+        "url": "https://core.ac.uk/download/289238877.pdf"
+      },
+      {
+        "title": "Gresik coordinates — time-ok.com",
+        "url": "https://time-ok.com/coordinates/gresik"
+      },
+      {
+        "title": "Wali Songo, Lebih dari Sekedar Keyakinan Masyarakat — A. Khoirul Anam, NU Online (Risalah Redaksi), 2012 (24 July)",
+        "url": "https://nu.or.id/risalah-redaksi/wali-songo-lebih-dari-sekedar-keyakinan-masyarakat-rofdU"
+      },
+      {
+        "title": "Tolerance of Walisongo's Da'wah as Local Wisdom of Islam Nusantara — Yoyok Amirudin, Proceedings, International Conference on Islam Nusantara, National Integrity and World Peace, Universitas Islam Malang, 2018",
+        "url": "https://new-conference.unisma.ac.id/index.php/glu2018/article/download/1260/1013/3624"
+      },
+      {
+        "title": "Edukasi dan Religi di Makam Sunan Gresik — ANTARA Jatim, 2015",
+        "url": "https://jatim.antaranews.com/berita/159528/edukasi-dan-religi-di-makam-sunan-gresik"
+      },
+      {
+        "title": "[judul belum tercatat] Berkala Arkeologi article by Muhammad Chawari on Gresik tombstones — Muhammad Chawari, Berkala Arkeologi (BRIN ejournal)",
+        "url": "https://ejournal.brin.go.id/berkalaarkeologi/article/download/5122/3756/14985"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-giri",
+    "type": "tourism",
+    "name": "Makam Sunan Giri",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan giri",
+      "ziarah sunan giri",
+      "lokasi sunan giri",
+      "location of sunan giri",
+      "visit sunan giri",
+      "etika ziarah sunan giri",
+      "etiquette sunan giri",
+      "berkunjung ke sunan giri",
+      "wisata sunan giri"
+    ],
+    "summary": {
+      "id": "Makam Sunan Giri berada di Gresik, Jawa Timur. Sunan Giri dikenal sebagai tokoh Wali Songo yang memimpin pesantren dan pemerintahan Giri Kedaton di perbukitan Giri, Gresik. Giri disebut sebagai pusat pendidikan sekaligus kekuasaan politik pada akhir Majapahit.",
+      "en": "Makam Sunan Giri is in Gresik, Jawa Timur. Sunan Giri is remembered as a Wali Songo figure who led the pesantren and polity of Giri Kedaton on the Giri hill in Gresik. Giri is described as both an education centre and a political power in late Majapahit times."
+    },
+    "details": {
+      "id": "Etika berkunjung: Berpakaian sopan dan menutup aurat, menjaga ketenangan, mengikuti arahan juru kunci atau pengelola, dan tidak mengganggu peziarah yang sedang berdoa. Ikuti aturan setempat soal foto dan antrean, terutama saat ramai seperti bulan Ramadan.",
+      "en": "Visiting etiquette: Dress modestly, keep quiet, follow the caretaker's or management's guidance, and do not disturb pilgrims who are praying. Follow local rules on photography and queuing, especially during busy periods such as Ramadan."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Gresik, Kabupaten Gresik, Jawa Timur"
+      ],
+      "en": [
+        "Region: Gresik, Kabupaten Gresik, Jawa Timur"
+      ]
+    },
+    "destinationId": "sunan-giri",
+    "relatedDestinations": [
+      "malik-ibrahim",
+      "sunan-ampel",
+      "bandar-grissee"
+    ],
+    "relatedCulinary": [
+      "pudak",
+      "nasi-krawu"
+    ],
+    "relatedUmkm": [
+      "songkok",
+      "pudak-product"
+    ],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Giri Gresik",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Sejarah Hidup Sunan Giri: Lahir, Nasab, Ajaran Dakwah Wali Songo — Tirto.id",
+        "url": "https://tirto.id/sejarah-hidup-sunan-giri-lahir-nasab-ajaran-dakwah-wali-songo-gbPP"
+      },
+      {
+        "title": "Revitalisasi Giri Kedaton Pada Tahun 1973-2020 Sebagai Sumber Belajar Sejarah (Lailatul Fitria, Eko Satriya Hermawan) — Avatara, Universitas Negeri Surabaya, 2023",
+        "url": "https://ejournal.unesa.ac.id/index.php/avatara/article/view/51084"
+      },
+      {
+        "title": "Sejarah Kehidupan Sunan Prapen: Sosok Pendakwah Besar yang Terpinggirkan (Sitti Zulaihah) — Journal of Humanities Issues, UIN KHAS Jember, 2025",
+        "url": "https://ejournal.uin-suska.ac.id/index.php/jhi/article/download/25248/13626"
+      },
+      {
+        "title": "Masa Kasunanan Giri Kedaton tahun 1487-1605 M: tinjauan sejarah politik (thesis abstract) — Ahmad Sirojuddin, UIN Sunan Ampel Surabaya digilib (undergraduate thesis), 2025",
+        "url": "https://digilib.uinsa.ac.id/id/eprint/82038/"
+      },
+      {
+        "title": "Perkembangan Kerajaan Giri Kedaton Tahun 1548-1605 — Abdullah Hafizh and Artono, AVATARA e-Journal Pendidikan Sejarah 9(4), Universitas Negeri Surabaya, 2021",
+        "url": "https://ejournal.unesa.ac.id/index.php/avatara/article/view/41852/36003"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-drajat",
+    "type": "tourism",
+    "name": "Makam Sunan Drajat",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan drajat",
+      "ziarah sunan drajat",
+      "lokasi sunan drajat",
+      "location of sunan drajat",
+      "visit sunan drajat",
+      "etika ziarah sunan drajat",
+      "etiquette sunan drajat",
+      "berkunjung ke sunan drajat",
+      "wisata sunan drajat"
+    ],
+    "summary": {
+      "id": "Makam Sunan Drajat berada di Paciran, Jawa Timur. Sunan Drajat, putra Sunan Ampel, dikenang berdakwah di pesisir utara Lamongan dengan kepedulian sosial. Kompleks makamnya di Desa Drajat, Paciran, memiliki museum dan merupakan situs arkeologi Islam yang telah dikaji sejak awal abad ke-20.",
+      "en": "Makam Sunan Drajat is in Paciran, Jawa Timur. Sunan Drajat, a son of Sunan Ampel, is remembered for preaching on Lamongan's north coast with a strong social concern. His tomb complex in Drajat village, Paciran, includes a museum and has been studied as an Islamic archaeological site since the early 20th century."
+    },
+    "details": {
+      "id": "Etika berkunjung: Berpakaian sopan dan tenang, ikuti arahan pengelola, dan hormati peziarah yang sedang berdoa. Situs ini dipakai sebagai tempat ziarah dan juga memiliki nilai pendidikan sejarah.",
+      "en": "Visiting etiquette: Dress modestly and quietly, follow the management's guidance, and respect pilgrims who are praying. The site serves as a pilgrimage place and also has historical and educational value."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Paciran, Kabupaten Lamongan, Jawa Timur"
+      ],
+      "en": [
+        "Region: Paciran, Kabupaten Lamongan, Jawa Timur"
+      ]
+    },
+    "destinationId": "sunan-drajat",
+    "relatedDestinations": [
+      "sunan-bonang",
+      "sunan-giri"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Drajat Paciran Lamongan",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Makam Sunan Drajat Cocok untuk Wisata Religi Saat Libur Idul Adha — detikJatim",
+        "url": "https://www.detik.com/jatim/wisata/d-7392781/makam-sunan-drajat-cocok-untuk-wisata-religi-saat-libur-idul-adha"
+      },
+      {
+        "title": "Ragam hias kompleks makam Sunan Drajat (Novida Abbaa) — Berkala Arkeologi (BRIN)",
+        "url": "https://ejournal.brin.go.id/berkalaarkeologi/article/download/5489/4037"
+      },
+      {
+        "title": "Museum Sunan Drajat — Indonesia.travel (Kemenparekraf)",
+        "url": "https://www.indonesia.travel/id/id/destination/java/east-java/museum-sunan-drajat/"
+      },
+      {
+        "title": "Kepurbakalaan Islam komplek makam Sunan Drajat di Paciran Lamongan (Abd. Ra'uf Djabir, 1985) — Skripsi IAIN Sunan Ampel Surabaya (digilib UINSA)",
+        "url": "https://digilib.uinsa.ac.id/11644"
+      },
+      {
+        "title": "Manuskrip Mushaf Al-Qur'an Koleksi Museum Sunan Drajat (Aufal Minan, 2024) — UIN Sunan Ampel Surabaya (OJS UNSIQ Syariati)",
+        "url": "https://ojs.unsiq.ac.id/index.php/syariati/article/download/6959/3249"
+      },
+      {
+        "title": "Historical Analysis of Manuscript Kitab Amhjah Sunan Drajat Lamongan (Bab III) — Etheses IAIN Kediri",
+        "url": "https://etheses.iainkediri.ac.id/20167/4/21102016_bab3.pdf"
+      },
+      {
+        "title": "Qur'anic Analysis of Gamelan Singo Mengkok and Tembang Pangkur as Sunan Drajat's Cultural Dakwah — Al-Hafidz, A.F.; Roy, E.R.R.; Putra, Y.A.; Maulana, A.F. et al., el Harakah: Jurnal Budaya Islam 28(1):163-184 (UIN Malang); DOI 10.18860/eh.v28i1.37584, 2026",
+        "url": "https://ejournal.uin-malang.ac.id/index.php/infopub/article/view/37584"
+      },
+      {
+        "title": "Peran Sunan Drajat dalam islamisasi di desa Drajat kecamatan Paciran kabupaten Lamongan abad (XV-XVI) — Anggun Rosaliah, UIN Sunan Ampel Surabaya (undergraduate thesis), 2022",
+        "url": "https://digilib.uinsa.ac.id/id/eprint/54935/"
+      },
+      {
+        "title": "Museum Sunan Drajat — Indonesia.travel (Ministry of Tourism, official portal)",
+        "url": "https://www.indonesia.travel/nl/nl/destination/java/east-java/museum-sunan-drajat/"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-bonang",
+    "type": "tourism",
+    "name": "Makam Sunan Bonang",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan bonang",
+      "ziarah sunan bonang",
+      "lokasi sunan bonang",
+      "location of sunan bonang",
+      "visit sunan bonang",
+      "etika ziarah sunan bonang",
+      "etiquette sunan bonang",
+      "berkunjung ke sunan bonang",
+      "wisata sunan bonang"
+    ],
+    "summary": {
+      "id": "Makam Sunan Bonang berada di Tuban, Jawa Timur. Sunan Bonang dikenal sebagai putra Sunan Ampel yang berbasis di Tuban dan dikaitkan dengan naskah suluk serta tradisi dakwah melalui seni. Makamnya di Tuban adalah yang paling sering diziarahi, meski ada klaim lokasi lain.",
+      "en": "Makam Sunan Bonang is in Tuban, Jawa Timur. Sunan Bonang is remembered as a son of Sunan Ampel who was based in Tuban and is associated with Sufi suluk texts and arts-based preaching. His tomb in Tuban is the most visited, though other sites are also claimed."
+    },
+    "details": {
+      "id": "Etika berkunjung: Berpakaian sopan dan menutup aurat, menjaga ketenangan, dan mengikuti arahan juru kunci atau pengelola. Aktivitas yang umum diamati di lokasi adalah membaca Al-Qur'an, Yasin, dan tahlil di pendopo, serta salat berjamaah di Masjid Astana (detik.com). Hormati peziarah yang sedang berdoa.",
+      "en": "Visiting etiquette: Dress modestly, keep quiet, and follow the caretaker's or management's guidance. Commonly observed activities are Qur'an reading, Yasin, and tahlil in the pavilion, and congregational prayer at Masjid Astana (detik.com). Respect pilgrims who are praying."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Tuban, Kabupaten Tuban, Jawa Timur"
+      ],
+      "en": [
+        "Region: Tuban, Kabupaten Tuban, Jawa Timur"
+      ]
+    },
+    "destinationId": "sunan-bonang",
+    "relatedDestinations": [
+      "sunan-drajat",
+      "sunan-ampel"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Bonang Tuban",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Tarik Ulur Makam Sunan Bonang, Antara Rembang, Tuban, dan Bawean — NU Online (26 Juli 2015)",
+        "url": "https://nu.or.id/daerah/tarik-ulur-makam-sunan-bonang-antara-rembang-tuban-dan-bawean-K9M8R"
+      },
+      {
+        "title": "Prasasti Singkat dari Empat Buah Makam Islam dan Sebuah Gua di Daerah Tuban (M.M. Sukarto K. Atmodjo) — Berkala Arkeologi (BRIN)",
+        "url": "https://ejournal.brin.go.id/berkalaarkeologi/article/download/5477/4028/15520"
+      },
+      {
+        "title": "Melihat Komplek Makam Sunan Bonang yang Tak Pernah Sepi saat Ramadan — detikJatim",
+        "url": "https://www.detik.com/jatim/budaya/d-6645363/melihat-komplek-makam-sunan-bonang-yang-tak-pernah-sepi-saat-ramadan"
+      },
+      {
+        "title": "Internalisasi Tasawuf dalam Dakwah Sunan Bonang (Jauharotina Alfadhilah) — SWALALITA, IAIN Nahdlatul Ulama Tuban, 2022",
+        "url": "https://ejournal.iainutuban.ac.id/index.php/aswalalita/article/download/239/200"
+      },
+      {
+        "title": "Kisah Inspiratif Sunan Bonang (Zahrotul Mufidah) — Maliki Interdisciplinary Journal 3(2), 2025",
+        "url": "https://urj.uin-malang.ac.id/index.php/mij/article/download/13232/5409"
+      },
+      {
+        "title": "Pendidikan Tauhid dalam Naskah Het Boek Van Bonang — Waluyo, Wahana Akademika: Jurnal Studi Islam dan Sosial, UIN Walisongo, 10(1):47-57, 2023",
+        "url": "https://journal.walisongo.ac.id/index.php/wahana/article/download/15446/pdf"
+      },
+      {
+        "title": "The Admonitions of Seh Bari; a 16th century Javanese Muslim text, attributed to the Saint of Bonan — G.W.J. Drewes (ed./transl.), HathiTrust catalog record (Univ. of Michigan copy)",
+        "url": "https://catalog.hathitrust.org/Record/001636110"
+      },
+      {
+        "title": "Kontroversial Perkawinan dan keberadaan Makam Sunan Bonang — Munawaroh, UIN Sunan Ampel Surabaya (undergraduate thesis, Digilib), 2020",
+        "url": "https://digilib.uinsa.ac.id/id/eprint/44530/"
+      },
+      {
+        "title": "Teka-teki Lokasi Makam Sunan Bonang yang Masih Misterius — detikHikmah, 2025 (2 Feb)",
+        "url": "https://www.detik.com/hikmah/khazanah/d-7758842/teka-teki-lokasi-makam-sunan-bonang-yang-masih-misterius"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-kudus",
+    "type": "tourism",
+    "name": "Menara & Makam Sunan Kudus",
+    "category": "Religious Heritage",
+    "keywords": [
+      "menara & makam sunan kudus",
+      "makam menara & makam sunan kudus",
+      "ziarah menara & makam sunan kudus",
+      "lokasi menara & makam sunan kudus",
+      "location of menara & makam sunan kudus",
+      "visit menara & makam sunan kudus",
+      "etika ziarah menara & makam sunan kudus",
+      "etiquette menara & makam sunan kudus",
+      "berkunjung ke menara & makam sunan kudus",
+      "wisata menara & makam sunan kudus"
+    ],
+    "summary": {
+      "id": "Menara & Makam Sunan Kudus berada di Kudus, Jawa Tengah. Sunan Kudus dikenal sebagai tokoh Wali Songo yang dikaitkan dengan Masjid Menara Kudus di Kauman, Kudus. Menara Kudus yang bercorak candi menjadi bahan kajian akademik tentang perpaduan unsur Hindu-Buddha, Jawa, dan Islam.",
+      "en": "Menara & Makam Sunan Kudus is in Kudus, Jawa Tengah. Sunan Kudus is remembered as a Wali Songo figure associated with the Menara Kudus Mosque in Kauman, Kudus. The temple-like tower is a subject of academic study on the blend of Hindu-Buddhist, Javanese and Islamic elements."
+    },
+    "details": {
+      "id": "Etika berkunjung: Berpakaian sopan dan menutup aurat, menjaga ketenangan, mengikuti arahan juru kunci atau pengelola, dan tidak mengganggu peziarah yang sedang berdoa. Ikuti aturan setempat soal foto dan antrean, terutama saat ramai seperti bulan Ramadan.",
+      "en": "Visiting etiquette: Dress modestly, keep quiet, follow the caretaker's or management's guidance, and do not disturb pilgrims who are praying. Follow local rules on photography and queuing, especially during busy periods such as Ramadan."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Kudus, Kabupaten Kudus, Jawa Tengah"
+      ],
+      "en": [
+        "Region: Kudus, Kabupaten Kudus, Jawa Tengah"
+      ]
+    },
+    "destinationId": "sunan-kudus",
+    "relatedDestinations": [
+      "sunan-muria",
+      "sunan-kalijaga"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Menara Kudus Makam Sunan Kudus",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Islamisasi Jawa: Sayyid Ja'far Shadiq dan Menara Kudus Sebagai Media Dakwahnya (Muhammad Abdul Kharis) — Jurnal Indo-Islamika, UIN Syarif Hidayatullah Jakarta, 2020",
+        "url": "https://journal.uinjkt.ac.id/index.php/indo-islamika/article/download/17508/7862"
+      },
+      {
+        "title": "Bentuk dan Makna Ornamen Lawang Kembar Masjid Menara Kudus (Heri Hermanto, Usria Masfufah) — Jurnal Ilmiah Arsitektur 13(1), 2023",
+        "url": "https://ojs.unsiq.ac.id/index.php/jiars/article/download/5127/2408"
+      },
+      {
+        "title": "Mengenal Masjid Menara Kudus: Sejarah, Keunikan, dan Tradisinya — Good News from Indonesia (18 Desember 2022)",
+        "url": "https://www.goodnewsfromindonesia.id/2022/12/18/mengenal-masjid-menara-kudus-sejarah-keunikan-dan-tradisinya"
+      },
+      {
+        "title": "Kisah Sunan Jafar Shodiq dan Asal Mula Orang Kudus Dilarang Makan Daging Sapi — iNews.id (29 Maret 2023)",
+        "url": "https://www.inews.id/regional/jatim/kisah-sunan-jafar-shodiq-dan-asal-mula-orang-kudus-dilarang-makan-daging-sapi/all"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-muria",
+    "type": "tourism",
+    "name": "Makam Sunan Muria",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan muria",
+      "ziarah sunan muria",
+      "lokasi sunan muria",
+      "location of sunan muria",
+      "visit sunan muria",
+      "etika ziarah sunan muria",
+      "etiquette sunan muria",
+      "berkunjung ke sunan muria",
+      "wisata sunan muria"
+    ],
+    "summary": {
+      "id": "Makam Sunan Muria berada di Colo, Kecamatan Dawe, Jawa Tengah. Sunan Muria dikenal sebagai salah satu Wali Songo yang berdakwah di lereng Gunung Muria, Kudus. Makamnya berada di puncak bukit Desa Colo, di belakang masjid yang dicapai melalui ratusan anak tangga.",
+      "en": "Makam Sunan Muria is in Colo, Kecamatan Dawe, Jawa Tengah. Sunan Muria is counted among the Wali Songo and is associated with preaching on the slopes of Mount Muria, Kudus. His tomb lies on a hilltop in Colo village, behind a mosque reached by a long stairway."
+    },
+    "details": {
+      "id": "Etika berkunjung: Kompleks ini adalah tempat ziarah dan masjid yang aktif. Berpakaian sopan dan menutup aurat, menjaga ketenangan, dan mengikuti arahan pengurus. Aturan resmi tertulis tidak ditemukan dalam sumber yang dibuka, sehingga hal ini adalah tata krama umum.",
+      "en": "Visiting etiquette: This is an active pilgrimage site and mosque. Dress modestly, keep quiet, and follow the caretakers' guidance. No official written rules were found in the sources consulted, so this is general etiquette."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Colo, Kecamatan Dawe, Kudus, Jawa Tengah"
+      ],
+      "en": [
+        "Region: Colo, Kecamatan Dawe, Kudus, Jawa Tengah"
+      ]
+    },
+    "destinationId": "sunan-muria",
+    "relatedDestinations": [
+      "sunan-kudus",
+      "sunan-kalijaga"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Muria Colo Kudus",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Gambaran Umum Desa Colo, Sunan Muria, Yayasan Masjid dan Makam Sunan Muria dalam Pemberdayaan Masyarakat Desa Colo (Bab III, tesis/skripsi) — UIN Walisongo Semarang (eprints)",
+        "url": "https://eprints.walisongo.ac.id/id/eprint/3559/4/101311054_Bab3.pdf"
+      },
+      {
+        "title": "Melihat 'Masjid di Atas Awan' Peninggalan Sunan Muria di Kudus — Detik Jateng",
+        "url": "https://www.detik.com/jateng/berita/d-7237122/melihat-masjid-di-atas-awan-peninggalan-sunan-muria-di-kudus"
+      },
+      {
+        "title": "The Graveyard and the Mosque of Colo — Visit Jawa Tengah (Pemprov Jawa Tengah)",
+        "url": "https://visitjawatengah.jatengprov.go.id/en/destinations/the-graveyard-and-the-mosque-of-colo"
+      },
+      {
+        "title": "Reaktualisasi Ajaran Walisongo dalam Pendidikan Islam di Era Perubahan (Al Ulya vol. 8 no. 2, 2023) — UNU Sunan Giri / Al Ulya",
+        "url": "https://journal.unugiri.ac.id/index.php/al-ulya/article/download/2040/1205"
+      },
+      {
+        "title": "AJARAN DAKWAH SUNAN MURIA (KAJIAN RIJAL AL-DAKWAH) — Anasom Anasom, Jurnal Ilmu Dakwah (UIN Walisongo) 37(1), DOI 10.21580/jid.v37.1.2620, 2018",
+        "url": "https://journal.walisongo.ac.id/index.php/dakwah/article/view/2620"
+      },
+      {
+        "title": "Akulturasi Dakwah Sinkretis Sunan Kalijaga — Hilyah Ashoumi, Qalamuna 10(1), 2018",
+        "url": "https://ejournal.insuriponorogo.ac.id/index.php/qalamuna/article/download/137/129"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-kalijaga",
+    "type": "tourism",
+    "name": "Makam Sunan Kalijaga",
+    "category": "Religious Heritage",
+    "keywords": [
+      "makam sunan kalijaga",
+      "ziarah sunan kalijaga",
+      "lokasi sunan kalijaga",
+      "location of sunan kalijaga",
+      "visit sunan kalijaga",
+      "etika ziarah sunan kalijaga",
+      "etiquette sunan kalijaga",
+      "berkunjung ke sunan kalijaga",
+      "wisata sunan kalijaga"
+    ],
+    "summary": {
+      "id": "Makam Sunan Kalijaga berada di Kadilangu, Jawa Tengah. Sunan Kalijaga adalah salah satu Wali Songo yang dimakamkan di Kadilangu, Demak, dan dikaitkan dengan dakwah yang akrab dengan budaya Jawa. Banyak karya budaya dikaitkan dengannya melalui tradisi, sementara data biografinya masih diperdebatkan.",
+      "en": "Makam Sunan Kalijaga is in Kadilangu, Jawa Tengah. Sunan Kalijaga is one of the Wali Songo, buried at Kadilangu, Demak, and associated with a preaching style close to Javanese culture. Many cultural works are linked to him through tradition, while his biographical data remain debated."
+    },
+    "details": {
+      "id": "Etika berkunjung: Makam adalah tempat ziarah aktif dan situs keluarga. Berpakaian sopan, menjaga ketenangan, dan mengikuti arahan juru kunci. Aturan resmi tertulis tidak ditemukan dalam sumber yang dibuka.",
+      "en": "Visiting etiquette: The tomb is an active pilgrimage site and family site. Dress modestly, keep quiet, and follow the caretaker's guidance. No official written rules were found in the sources opened."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Kadilangu, Demak, Jawa Tengah"
+      ],
+      "en": [
+        "Region: Kadilangu, Demak, Jawa Tengah"
+      ]
+    },
+    "destinationId": "sunan-kalijaga",
+    "relatedDestinations": [
+      "sunan-kudus",
+      "sunan-muria"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Kalijaga Kadilangu Demak",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Kidung Rumeksa Ing Wengi Karya Sunan Kalijaga dalam Kajian Teologis (Teologia vol. 25 no. 2, 2014) — UIN Walisongo Semarang",
+        "url": "https://journal.walisongo.ac.id/index.php/teologia/article/view/394/360"
+      },
+      {
+        "title": "Usulan Manajemen Pengunjung Situs Makam Sunan Kalijaga, Kelurahan Kadilangu, Kabupaten Demak (Bakti Budaya vol. 1 no. 2, 2018) — Universitas Gadjah Mada",
+        "url": "https://journal.ugm.ac.id/bakti/article/download/41088/22828"
+      },
+      {
+        "title": "Ketokohan dan Nilai-nilai Spiritualitas Ajaran Sunan Kalijaga dalam Praktik Kesenian Karawitan di Kabupaten Demak (Resital vol. 24 no. 3, 2023) — ISI Yogyakarta",
+        "url": "https://journal.isi.ac.id/index.php/resital/article/download/10947/3606"
+      },
+      {
+        "title": "Bab III: Fenomena Pengalaman Beragama Para Musafir (skripsi) — UIN Walisongo Semarang (eprints)",
+        "url": "https://eprints.walisongo.ac.id/id/eprint/1243/4/084411010_Bab3.pdf"
+      },
+      {
+        "title": "Reaktualisasi Ajaran Walisongo dalam Pendidikan Islam di Era Perubahan (Al Ulya vol. 8 no. 2, 2023) — UNU Sunan Giri",
+        "url": "https://journal.unugiri.ac.id/index.php/al-ulya/article/download/2040/1205"
+      },
+      {
+        "title": "Akulturasi Dakwah Sinkretis Sunan Kalijaga — Hilyah Ashoumi, Qalamuna 10(1), Jan-Jun, 2018",
+        "url": "https://ejournal.insuriponorogo.ac.id/index.php/qalamuna/article/download/137/129"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "sunan-gunung-jati",
+    "type": "tourism",
+    "name": "Astana Sunan Gunung Jati",
+    "category": "Religious Heritage",
+    "keywords": [
+      "astana sunan gunung jati",
+      "makam astana sunan gunung jati",
+      "ziarah astana sunan gunung jati",
+      "lokasi astana sunan gunung jati",
+      "location of astana sunan gunung jati",
+      "visit astana sunan gunung jati",
+      "etika ziarah astana sunan gunung jati",
+      "etiquette astana sunan gunung jati",
+      "berkunjung ke astana sunan gunung jati",
+      "wisata astana sunan gunung jati"
+    ],
+    "summary": {
+      "id": "Astana Sunan Gunung Jati berada di Cirebon (Desa Astana, Kecamatan Gunung Jati), Jawa Barat. Syarif Hidayatullah, dikenal sebagai Sunan Gunung Jati, adalah tokoh Wali Songo yang dalam tradisi dan literatur dikaitkan dengan berdirinya kekuasaan Islam di Cirebon dan Banten. Ia dimakamkan di kompleks Astana Gunung Sembung, Cirebon.",
+      "en": "Astana Sunan Gunung Jati is in Cirebon (Desa Astana, Kecamatan Gunung Jati), Jawa Barat. Syarif Hidayatullah, known as Sunan Gunung Jati, is a Wali Songo figure linked in tradition and literature to the rise of Islamic rule in Cirebon and Banten. He is buried in the Astana Gunung Sembung complex in Cirebon."
+    },
+    "details": {
+      "id": "Etika berkunjung: Kompleks adalah makam keraton yang aktif sebagai tempat ziarah. Berpakaian sopan dan ikuti arahan juru kunci dan abdi dalem. Dokumentasi dilarang di area privat menurut sebuah skripsi.",
+      "en": "Visiting etiquette: The complex is an active royal burial site and pilgrimage place. Dress modestly and follow the guidance of the caretaker and abdi dalem. Photography in private areas is prohibited according to a thesis."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Cirebon (Desa Astana, Kecamatan Gunung Jati), Cirebon, Jawa Barat"
+      ],
+      "en": [
+        "Region: Cirebon (Desa Astana, Kecamatan Gunung Jati), Cirebon, Jawa Barat"
+      ]
+    },
+    "destinationId": "sunan-gunung-jati",
+    "relatedDestinations": [
+      "sunan-kalijaga"
+    ],
+    "relatedCulinary": [],
+    "relatedUmkm": [],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Makam Sunan Gunung Jati Cirebon",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Wisata Religi Makam Gunung Jati Cirebon sebagai Budaya dan Media Spiritual (Wahana Akademika vol. 5 no. 1, 2018) — UIN Walisongo Semarang",
+        "url": "https://journal.walisongo.ac.id/index.php/wahana/article/download/2565/1653"
+      },
+      {
+        "title": "Study of the Astana Gunung Jati Heritage Tomb, Cirebon, Indonesia (SoRes 2021) — Atlantis Press",
+        "url": "https://download.atlantis-press.com/proceedings/sores-21/125973468"
+      },
+      {
+        "title": "Mengenal Lebih Dalam 9 Pintu di Komplek Makam Sunan Gunung Jati — Detik Jabar",
+        "url": "https://www.detik.com/jabar/budaya/d-6873882/mengenal-lebih-dalam-9-pintu-di-komplek-makam-sunan-gunung-jati"
+      },
+      {
+        "title": "Menapak Sejarah Astana Gunung Sembung dan Kisah Dakwah Bratalegawa — Detik Jabar",
+        "url": "https://www.detik.com/jabar/cirebon-raya/d-7239026/menapak-sejarah-astana-gunung-sembung-dan-kisah-dakwah-bratalegawa"
+      },
+      {
+        "title": "Skripsi tentang kompleks makam Sunan Gunung Jati (Bab II-III), penulis tidak terlihat — UIN Sunan Kalijaga (digilib)",
+        "url": "https://digilib.uin-suka.ac.id/id/eprint/28840/2/13250009_BAB-II_sampai_SEBELUM-BAB-TERAKHIR.pdf"
+      },
+      {
+        "title": "Bab IV: Makna Ziarah bagi Pengunjung di Makam Sunan Gunung Jati (skripsi) — ISBI Bandung (repository)",
+        "url": "https://repo.isbi.ac.id/files/original/36f1463a13cfbca0c1ce9a28025a85193cc7b0fe.pdf"
+      },
+      {
+        "title": "Reaktualisasi Ajaran Walisongo dalam Pendidikan Islam di Era Perubahan (Al Ulya 2023) — UNU Sunan Giri",
+        "url": "https://journal.unugiri.ac.id/index.php/al-ulya/article/download/2040/1205"
+      },
+      {
+        "title": "The Da'wah Way of Sunan Gunung Djati in Cirebon (ethno-religious identity and moderation values) — Kris Nandang; Suciyadi Ramdhani, Syekh Nurjati: Jurnal Studi Sosial Keagamaan 02(02), IAIN Syekh Nurjati Cirebon, 2022",
+        "url": "https://syekhnurjati.ac.id/sejati/index.php/sejati/article/download/32/27"
+      },
+      {
+        "title": "Islamisasi di Cirebon: Peran dan Pengaruh Walangsungsang Perspektif Naskah Carios Walangsungsang — Siti Zulfah, Tamaddun 6(1), pp.172-201, 2018",
+        "url": "https://syekhnurjati.ac.id/jurnal/index.php/tamaddun/article/download/3270/2055"
+      },
+      {
+        "title": "Peran Sunan Gunung Jati dalam Mengembangkan Pusat Peradaban Islam di Cirebon pada Abad 16 — Wildan, D., Historia: Jurnal Pendidik dan Peneliti Sejarah 8(2), 195-204 (UPI), 2025",
+        "url": "https://ejournal.upi.edu/index.php/historia/article/download/90876/35093"
+      },
+      {
+        "title": "Dakwah Sunan Gunung Jati dalam Proses Islamisasi di Kesultanan Cirebon Tahun 1479-1568 — Titan Rohkmutiana Hardhi, Risalah (Universitas Negeri Yogyakarta student journal), 2014",
+        "url": "https://journal.student.uny.ac.id/risalah/article/download/4941/4603"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "bandar-grissee",
+    "type": "tourism",
+    "name": "Bandar Grissee",
+    "category": "Heritage Support",
+    "keywords": [
+      "bandar grissee",
+      "makam bandar grissee",
+      "ziarah bandar grissee",
+      "lokasi bandar grissee",
+      "location of bandar grissee",
+      "visit bandar grissee",
+      "etika ziarah bandar grissee",
+      "etiquette bandar grissee",
+      "berkunjung ke bandar grissee",
+      "wisata bandar grissee"
+    ],
+    "summary": {
+      "id": "Bandar Grissee berada di Gresik, Jawa Timur. Kawasan pelabuhan dan kota lama Gresik yang dipugar dan dibuka kembali untuk umum pada Desember 2022.",
+      "en": "Bandar Grissee is in Gresik, Jawa Timur. Gresik's old harbour and old-town precinct, restored and reopened to the public in December 2022."
+    },
+    "details": {
+      "id": "Etika berkunjung: Hormati warga setempat: sebagian bangunan adalah rumah yang masih dihuni. Minta izin sebelum memotret orang atau memasuki halaman pribadi.",
+      "en": "Visiting etiquette: Respect local residents: some buildings are lived-in homes. Ask permission before photographing people or entering private yards."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Gresik, Kabupaten Gresik, Jawa Timur"
+      ],
+      "en": [
+        "Region: Gresik, Kabupaten Gresik, Jawa Timur"
+      ]
+    },
+    "destinationId": "bandar-grissee",
+    "relatedDestinations": [
+      "kampung-kemasan",
+      "malik-ibrahim"
+    ],
+    "relatedCulinary": [
+      "rujak-cingur",
+      "bandeng"
+    ],
+    "relatedUmkm": [
+      "batik"
+    ],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Bandar Grissee Gresik",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Gresik as a trading port city",
+        "url": "https://mojok.co/liputan/kampung-kemasan-potret-kejayaan-perdagangan-gresik-di-masa-silam/"
+      },
+      {
+        "title": "Bandar Grissee restored and reopened",
+        "url": "https://lestari.kompas.com/read/2023/04/28/120000386/bandar-grissee-gresik-saksi-bisu-keragaman-budaya-indonesia"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  },
+  {
+    "id": "kampung-kemasan",
+    "type": "tourism",
+    "name": "Kampung Kemasan",
+    "category": "Heritage Support",
+    "keywords": [
+      "kampung kemasan",
+      "makam kampung kemasan",
+      "ziarah kampung kemasan",
+      "lokasi kampung kemasan",
+      "location of kampung kemasan",
+      "visit kampung kemasan",
+      "etika ziarah kampung kemasan",
+      "etiquette kampung kemasan",
+      "berkunjung ke kampung kemasan",
+      "wisata kampung kemasan"
+    ],
+    "summary": {
+      "id": "Kampung Kemasan berada di Gresik, Jawa Timur. Kampung rumah saudagar pribumi dengan arsitektur yang memadukan gaya Tionghoa, kolonial Belanda, dan tata ruang Jawa.",
+      "en": "Kampung Kemasan is in Gresik, Jawa Timur. A neighbourhood of indigenous merchants' houses blending Chinese and Dutch colonial styles with Javanese layouts."
+    },
+    "details": {
+      "id": "Etika berkunjung: Hormati warga setempat: sebagian bangunan adalah rumah yang masih dihuni. Minta izin sebelum memotret orang atau memasuki halaman pribadi.",
+      "en": "Visiting etiquette: Respect local residents: some buildings are lived-in homes. Ask permission before photographing people or entering private yards."
+    },
+    "facts": {
+      "id": [
+        "Wilayah: Gresik, Kabupaten Gresik, Jawa Timur"
+      ],
+      "en": [
+        "Region: Gresik, Kabupaten Gresik, Jawa Timur"
+      ]
+    },
+    "destinationId": "kampung-kemasan",
+    "relatedDestinations": [
+      "bandar-grissee",
+      "malik-ibrahim"
+    ],
+    "relatedCulinary": [
+      "nasi-krawu",
+      "rujak-cingur"
+    ],
+    "relatedUmkm": [
+      "batik",
+      "pudak-product"
+    ],
+    "actions": [
+      "destination",
+      "map"
+    ],
+    "location": {
+      "mapsQuery": "Kampung Kemasan Gresik",
+      "coordsVerified": false
+    },
+    "sources": [
+      {
+        "title": "Kampung Kemasan: houses of indigenous merchants",
+        "url": "https://mojok.co/liputan/kampung-kemasan-potret-kejayaan-perdagangan-gresik-di-masa-silam/"
+      }
+    ],
+    "verificationNote": {
+      "id": "Jam buka, biaya, dan transportasi tidak tersedia di basis pengetahuan ini; konfirmasi ke pengelola atau sumber resmi. Koordinat titik makam belum diverifikasi, jadi tautan peta mencari berdasarkan nama tempat.",
+      "en": "Opening hours, fees and transport are not available in this knowledge base; please confirm with the site management or official sources. The tomb's exact coordinates are not verified yet, so the map link searches by place name."
+    }
+  }
+]

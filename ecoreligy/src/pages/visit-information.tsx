@@ -1,0 +1,23 @@
+import { Link } from '@tanstack/react-router'
+import { ArrowRight, Clock3, MapPin, MessageCircle, ShieldAlert } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { getDestination, googleMapsUrlFor, loc } from '@/data'
+import { useApp } from '@/lib/app-context'
+
+export function VisitInformationPage() {
+  const { language } = useApp()
+  const t = (en: string, id: string) => language === 'id' ? id : en
+  const place = getDestination('sunan-giri')
+  return <>
+    <section className="page-intro relative isolate overflow-hidden bg-[#242521] py-16 text-[#F5F0E6] sm:py-20 lg:py-24"><div className="ornament-grid absolute inset-y-0 right-0 w-1/3 opacity-25"/><div className="page-shell relative"><p className="ar-eyebrow text-[#C4A36A]">{t('VISIT INFORMATION · PLAN WITH CARE', 'INFORMASI KUNJUNGAN · RENCANAKAN DENGAN BIJAK')}</p><h1 className="mt-4 max-w-4xl font-display text-[clamp(2.8rem,6vw,5.5rem)] leading-[.96]">{t('Useful context before you visit.', 'Informasi penting sebelum berkunjung.')}</h1><p className="mt-5 max-w-3xl text-sm leading-7 text-white/75 sm:text-base">{t('Practical details vary by destination. Confirm current access, hours, and local guidance with site managers before travelling.', 'Informasi praktis dapat berbeda di setiap destinasi. Pastikan akses, jam kunjungan, dan arahan pengelola sebelum berangkat.')}</p></div></section>
+    <section className="page-shell grid gap-8 py-12 sm:py-16 lg:grid-cols-[1fr_320px]">
+      <div className="space-y-5">
+        <Card><CardHeader><CardTitle className="flex items-center gap-2 font-display text-2xl"><MapPin className="size-5 text-primary"/>{place?.name}</CardTitle></CardHeader><CardContent className="space-y-4"><p className="text-sm text-muted-foreground">{place?.city}, {place?.province}</p><p className="text-sm leading-6">{t('The exact coordinates of the tomb are not verified in the project data. The map link searches for the named site; confirm its location locally.', 'Koordinat tepat makam belum terverifikasi dalam data proyek. Tautan peta mencari nama situs; pastikan lokasinya kepada pihak setempat.')}</p><div className="flex flex-wrap gap-3"><a className="ar-primary-button" href={googleMapsUrlFor(place)} target="_blank" rel="noreferrer">{t('Search the site on Maps', 'Cari situs di Maps')} <ArrowRight className="size-4"/></a><Link className="ar-secondary-button" to="/destinations/$id" params={{ id: 'sunan-giri' }}>{t('Read destination details', 'Baca detail destinasi')}</Link></div></CardContent></Card>
+        <Card><CardHeader><CardTitle className="flex items-center gap-2 font-display text-2xl"><Clock3 className="size-5 text-primary"/>{t('Hours and fees', 'Jam buka dan biaya')}</CardTitle></CardHeader><CardContent><p className="text-sm leading-6 text-muted-foreground">{place?.visit?.hours || t('Opening hours have not been verified.', 'Jam buka belum terverifikasi.')}</p><p className="mt-3 text-sm leading-6 text-muted-foreground">{place?.visit?.fees || t('Admission fees have not been verified.', 'Biaya masuk belum terverifikasi.')}</p></CardContent></Card>
+        <Card><CardHeader><CardTitle className="font-display text-2xl">{t('Respectful visit', 'Berkunjung dengan hormat')}</CardTitle></CardHeader><CardContent><p className="text-sm leading-7 text-muted-foreground">{loc(place?.visit?.etiquette)}</p></CardContent></Card>
+      </div>
+      <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start"><Card><CardHeader><CardTitle className="font-display text-xl">{t('Ask before you go', 'Tanyakan sebelum berangkat')}</CardTitle></CardHeader><CardContent><p className="text-sm leading-6 text-muted-foreground">{t('Send an information inquiry. It is saved locally and does not contact a tour operator.', 'Kirim pertanyaan informasi. Data tersimpan lokal dan tidak menghubungi operator wisata.')}</p><Button asChild className="mt-4 w-full"><Link to="/booking">{t('Open visit inquiry', 'Buka formulir pertanyaan')} <MessageCircle /></Link></Button></CardContent></Card><div className="rounded-xl border border-border bg-secondary/50 p-5"><ShieldAlert className="size-5 text-primary"/><p className="mt-3 text-sm leading-6 text-muted-foreground">{t('For urgent assistance, contact official local services or ask site management. Destination-specific emergency facilities are not verified here.', 'Untuk bantuan mendesak, hubungi layanan resmi setempat atau pengelola situs. Fasilitas darurat khusus destinasi belum terverifikasi di sini.')}</p></div></aside>
+    </section>
+  </>
+}
