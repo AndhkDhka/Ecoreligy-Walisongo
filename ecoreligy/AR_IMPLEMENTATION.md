@@ -1,27 +1,18 @@
-# AR Navigation Implementation
+# AR Experience
 
-## Current behavior
+The `/ar` route has two paths:
 
-- The working pilot is the Sunan Giri / Giri Kedaton image-tracking experience.
-- `src/data/ar-experiences.ts` registers one target image and `/assets/ar/sunan-giri.mind`.
-- `src/components/ar-stage.tsx` starts MindAR only after the visitor explicitly requests camera mode. It checks secure context and camera availability, tracks target-found/lost state, and tears down the camera/render loop when stopped.
-- Three.js renders an abstract interpretive object anchored to the registered image. It is not a reconstruction of the tomb, architecture, or an artifact.
-- A 3D preview and static image fallback are provided. The preview does not use the camera or spatial tracking.
-- AR completion records do not prove that the visitor is physically at the site.
+- **Scan:** MindAR tracks the existing Sunan Giri heritage-site image target in `public/assets/ar/sunan-giri.mind`. On target-found, the same sourced Sunan Giri profile used by the explorer is selected. This is a site-image target, not the portrait target requested in the supplied brief.
+- **Explore:** Visitors can open any of the nine Wali Songo profile panels without camera access.
 
-## Current target inventory
+The panel is a 2D glass-style heritage overlay with Biography, History, Tomb, Heritage, and Sources tabs. Content comes from the canonical bilingual destination records in `src/data.js`; historical uncertainty and source notes are retained. No abstract 3D object or historical portrait claim is used.
 
-| Destination | Target | Status |
-| --- | --- | --- |
-| Sunan Giri | `public/assets/Document/Makam Sunan Giri.png` compiled as `public/assets/ar/sunan-giri.mind` | Available pilot; verify print/display quality in field |
-| Other eight destinations | None registered | Manual Guided interpretation remains available |
+Camera access requires HTTPS or localhost. Camera tracks, the MindAR renderer, listeners, timers, and DOM nodes are cleaned up when scanning stops or the page unmounts.
 
-## Add a target
+## Target availability
 
-1. Obtain permission to use a clear, stable landmark image and document its provenance.
-2. Compile the image into a MindAR image target file using the MindAR compiler, then place that `.mind` file under `public/assets/ar/`.
-3. Add an `ARExperienceDefinition` record in `src/data/ar-experiences.ts` with destination ID, image, target path, status, reconstruction note, and source/content status.
-4. Connect target indices to the matching scene and sourced interpretation in `src/components/ar-stage.tsx` / `src/pages/ar-experience.tsx`.
-5. Check camera permissions, target found/lost states, fallback behavior, mobile viewport, and HTTPS in the deployed environment.
+- One existing target: Sunan Giri site image.
+- Requested portrait targets: none compiled; source images were not present in the project.
+- The exact nine-image mapping, missing filenames, and compiler steps are in `AR_CONTENT_MAPPING.md`.
 
-MindAR image tracking only detects registered image targets. Spatial arrows, building recognition, and GPS-guided AR are not implemented.
+MindAR image tracking recognizes only images registered in its compiled target bundle. It does not recognize arbitrary portraits, tombs, or artifacts.
