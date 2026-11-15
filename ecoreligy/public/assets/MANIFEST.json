@@ -1,14 +1,400 @@
 {
   "version": 1,
   "assets": [
-    { "id": "heritage-kampung-kemasan", "path": "/assets/heritage/kampung-kemasan-hero.jpg", "category": "culture", "alt": { "id": "Pemandangan udara kawasan Kampung Kemasan, Gresik", "en": "Aerial view of Kampung Kemasan, Gresik" }, "caption": { "id": "Kampung Kemasan · arsip proyek", "en": "Kampung Kemasan · project archive" }, "credit": "Arsip proyek; kredit sumber perlu dilengkapi", "heroEligible": true, "objectPosition": "center 55%" },
-    { "id": "culture-batik-gresik", "path": "/assets/heritage/batik-gresik.jpg", "category": "culture", "alt": { "id": "Tekstil Batik Gresik dari arsip proyek", "en": "Batik Gresik textile from the project archive" }, "caption": { "id": "Batik Gresik · arsip proyek", "en": "Batik Gresik · project archive" }, "credit": "Arsip proyek; kredit sumber perlu dilengkapi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "culture-damar-kurung", "path": "/assets/heritage/damar-kurung.jpg", "category": "culture", "alt": { "id": "Karya lampion Damar Kurung dari arsip proyek", "en": "Damar Kurung lantern art from the project archive" }, "caption": { "id": "Damar Kurung · arsip proyek", "en": "Damar Kurung · project archive" }, "credit": "Arsip proyek; kredit sumber perlu dilengkapi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "culture-bandar-grisse", "path": "/assets/heritage/bandar-grisse.jpg", "category": "culture", "alt": { "id": "Pemandangan jalan dengan papan Bandar Grisse", "en": "Street view showing the Bandar Grisse sign" }, "caption": { "id": "Bandar Grisse · arsip proyek", "en": "Bandar Grisse · project archive" }, "credit": "Arsip proyek; kredit sumber perlu dilengkapi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "destination-sunan-giri-site", "path": "/assets/heritage/sunan-giri-site.jpg", "category": "destination", "destinationId": "sunan-giri", "alt": { "id": "Pemandangan situs Sunan Giri dari arsip proyek; detail lokasi foto belum dipastikan", "en": "Sunan Giri site view from the project archive; exact photo location is unconfirmed" }, "caption": { "id": "Situs Sunan Giri · arsip proyek, lokasi foto perlu dipastikan", "en": "Sunan Giri site · project archive, exact photo location to confirm" }, "credit": "Arsip proyek; kredit sumber perlu dilengkapi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "illustration-otak-otak-bandeng", "path": "/assets/culinary/gresik/otak-otak-bandeng-illustration.jpeg", "category": "culinary", "destinationId": "malik-ibrahim", "alt": { "id": "Ilustrasi hidangan ikan dari laporan wisata religi", "en": "Illustrative fish dish image from the religious tourism report" }, "caption": { "id": "Otak-otak bandeng dan pudak · laporan wisata religi", "en": "Otak-otak bandeng and pudak · tourism report illustration" }, "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "illustration-pudak", "path": "/assets/culinary/gresik/pudak-illustration.jpeg", "category": "culinary", "destinationId": "malik-ibrahim", "alt": { "id": "Ilustrasi pudak dari laporan wisata religi", "en": "Illustrative pudak image from the religious tourism report" }, "caption": { "id": "Pudak · laporan wisata religi", "en": "Pudak · report illustration" }, "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "illustration-legen-siwalan", "path": "/assets/culinary/tuban/legen-siwalan-illustration.jpeg", "category": "culinary", "destinationId": "sunan-bonang", "alt": { "id": "Ilustrasi legen dan siwalan dari laporan wisata religi", "en": "Illustration of legen and siwalan from the religious tourism report" }, "caption": { "id": "Legen dan siwalan · laporan wisata religi", "en": "Legen and siwalan · report illustration" }, "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi", "heroEligible": false, "objectPosition": "center" },
-    { "id": "illustration-wingko-babat", "path": "/assets/culinary/lamongan/wingko-babat-illustration.jpeg", "category": "culinary", "destinationId": "sunan-drajat", "alt": { "id": "Ilustrasi wingko babat dari laporan wisata religi", "en": "Illustration of wingko babat from the religious tourism report" }, "caption": { "id": "Wingko babat · laporan wisata religi", "en": "Wingko babat · report illustration" }, "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi", "heroEligible": false, "objectPosition": "center" }
+    {
+      "id": "heritage-kampung-kemasan",
+      "path": "/assets/heritage/kampung-kemasan-hero.jpg",
+      "category": "culture",
+      "alt": {
+        "id": "Pemandangan udara kawasan Kampung Kemasan, Gresik",
+        "en": "Aerial view of Kampung Kemasan, Gresik"
+      },
+      "caption": {
+        "id": "Kampung Kemasan · arsip proyek",
+        "en": "Kampung Kemasan · project archive"
+      },
+      "credit": "Arsip proyek; kredit sumber perlu dilengkapi",
+      "heroEligible": true,
+      "objectPosition": "center 55%"
+    },
+    {
+      "id": "culture-batik-gresik",
+      "path": "/assets/heritage/batik-gresik.jpg",
+      "category": "culture",
+      "alt": {
+        "id": "Tekstil Batik Gresik dari arsip proyek",
+        "en": "Batik Gresik textile from the project archive"
+      },
+      "caption": {
+        "id": "Batik Gresik · arsip proyek",
+        "en": "Batik Gresik · project archive"
+      },
+      "credit": "Arsip proyek; kredit sumber perlu dilengkapi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "culture-damar-kurung",
+      "path": "/assets/heritage/damar-kurung.jpg",
+      "category": "culture",
+      "alt": {
+        "id": "Karya lampion Damar Kurung dari arsip proyek",
+        "en": "Damar Kurung lantern art from the project archive"
+      },
+      "caption": {
+        "id": "Damar Kurung · arsip proyek",
+        "en": "Damar Kurung · project archive"
+      },
+      "credit": "Arsip proyek; kredit sumber perlu dilengkapi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "culture-bandar-grisse",
+      "path": "/assets/heritage/bandar-grisse.jpg",
+      "category": "culture",
+      "alt": {
+        "id": "Pemandangan jalan dengan papan Bandar Grisse",
+        "en": "Street view showing the Bandar Grisse sign"
+      },
+      "caption": {
+        "id": "Bandar Grisse · arsip proyek",
+        "en": "Bandar Grisse · project archive"
+      },
+      "credit": "Arsip proyek; kredit sumber perlu dilengkapi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "destination-sunan-giri-site",
+      "path": "/assets/heritage/sunan-giri-site.jpg",
+      "category": "destination",
+      "destinationId": "sunan-giri",
+      "alt": {
+        "id": "Pemandangan situs Sunan Giri dari arsip proyek; detail lokasi foto belum dipastikan",
+        "en": "Sunan Giri site view from the project archive; exact photo location is unconfirmed"
+      },
+      "caption": {
+        "id": "Situs Sunan Giri · arsip proyek, lokasi foto perlu dipastikan",
+        "en": "Sunan Giri site · project archive, exact photo location to confirm"
+      },
+      "credit": "Arsip proyek; kredit sumber perlu dilengkapi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "illustration-otak-otak-bandeng",
+      "path": "/assets/culinary/gresik/otak-otak-bandeng-illustration.jpeg",
+      "category": "unverified",
+      "alt": {
+        "id": "Hidangan ikan dari arsip proyek; jenis hidangan belum terverifikasi",
+        "en": "Fish dish from the project archive; exact dish has not been verified"
+      },
+      "caption": {
+        "id": "Foto hidangan ikan; bukan dokumentasi otak-otak bandeng",
+        "en": "Fish dish photo; not documentation of otak-otak bandeng"
+      },
+      "credit": "Arsip proyek; sumber dan lisensi belum tercatat",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "illustration-pudak",
+      "path": "/assets/culinary/gresik/pudak-illustration.jpeg",
+      "category": "culinary",
+      "destinationId": "malik-ibrahim",
+      "alt": {
+        "id": "Ilustrasi pudak dari laporan wisata religi",
+        "en": "Illustrative pudak image from the religious tourism report"
+      },
+      "caption": {
+        "id": "Pudak · laporan wisata religi",
+        "en": "Pudak · report illustration"
+      },
+      "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "illustration-legen-siwalan",
+      "path": "/assets/culinary/tuban/legen-siwalan-illustration.jpeg",
+      "category": "culinary",
+      "destinationId": "sunan-bonang",
+      "alt": {
+        "id": "Ilustrasi legen dan siwalan dari laporan wisata religi",
+        "en": "Illustration of legen and siwalan from the religious tourism report"
+      },
+      "caption": {
+        "id": "Legen dan siwalan · laporan wisata religi",
+        "en": "Legen and siwalan · report illustration"
+      },
+      "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "illustration-wingko-babat",
+      "path": "/assets/culinary/lamongan/wingko-babat-illustration.jpeg",
+      "category": "culinary",
+      "destinationId": "sunan-drajat",
+      "alt": {
+        "id": "Ilustrasi wingko babat dari laporan wisata religi",
+        "en": "Illustration of wingko babat from the religious tourism report"
+      },
+      "caption": {
+        "id": "Wingko babat · laporan wisata religi",
+        "en": "Wingko babat · report illustration"
+      },
+      "credit": "Laporan Wisata Religi Lima Sunan · ilustrasi",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-malik-ibrahim",
+      "path": "/assets/verified/site-malik-ibrahim.jpg",
+      "category": "destination",
+      "destinationId": "malik-ibrahim",
+      "alt": {
+        "id": "Kompleks makam Maulana Malik Ibrahim di Gresik",
+        "en": "Kompleks makam Maulana Malik Ibrahim di Gresik"
+      },
+      "caption": {
+        "id": "Kompleks makam; foto 2017, titik foto tercatat di Commons",
+        "en": "Kompleks makam; foto 2017, titik foto tercatat di Commons"
+      },
+      "credit": "Pemerintah Kabupaten Gresik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makam_Maulana_Malik_Ibrahim_Tomb_Complex.jpg",
+      "license": "Public domain",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-ampel",
+      "path": "/assets/verified/site-sunan-ampel.jpg",
+      "category": "destination",
+      "destinationId": "sunan-ampel",
+      "alt": {
+        "id": "Area makam Sunan Ampel di Surabaya",
+        "en": "Area makam Sunan Ampel di Surabaya"
+      },
+      "caption": {
+        "id": "Kompleks makam Sunan Ampel; foto 2016",
+        "en": "Kompleks makam Sunan Ampel; foto 2016"
+      },
+      "credit": "Desrinda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makam_Sunan_Ampel.jpg",
+      "license": "CC BY-SA 4.0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-bonang",
+      "path": "/assets/verified/site-sunan-bonang.jpg",
+      "category": "destination",
+      "destinationId": "sunan-bonang",
+      "alt": {
+        "id": "Gerbang kompleks pemakaman Sunan Bonang di Tuban",
+        "en": "Gerbang kompleks pemakaman Sunan Bonang di Tuban"
+      },
+      "caption": {
+        "id": "Kompleks pemakaman Sunan Bonang; foto 2025",
+        "en": "Kompleks pemakaman Sunan Bonang; foto 2025"
+      },
+      "credit": "Pangeran Kurchilds",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kompleks_Pemakaman_Sunan_Bonang,_Tuban.jpg",
+      "license": "CC BY 4.0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-drajat",
+      "path": "/assets/verified/site-sunan-drajat.jpg",
+      "category": "destination",
+      "destinationId": "sunan-drajat",
+      "alt": {
+        "id": "Bangunan makam Sunan Drajat di Lamongan",
+        "en": "Bangunan makam Sunan Drajat di Lamongan"
+      },
+      "caption": {
+        "id": "Makam Sunan Drajat; sumber foto pemerintah daerah",
+        "en": "Makam Sunan Drajat; sumber foto pemerintah daerah"
+      },
+      "credit": "Pemerintah Kabupaten Lamongan / Disbudporapar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makam_Sunan_Drajat.jpg",
+      "license": "Public domain Indonesia",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-giri-commons",
+      "path": "/assets/verified/site-sunan-giri.jpg",
+      "category": "destination",
+      "destinationId": "sunan-giri",
+      "alt": {
+        "id": "Pemandangan historis gerbang dan makam Sunan Giri",
+        "en": "Pemandangan historis gerbang dan makam Sunan Giri"
+      },
+      "caption": {
+        "id": "Arsip historis kompleks Giri; bukan foto kondisi saat ini",
+        "en": "Arsip historis kompleks Giri; bukan foto kondisi saat ini"
+      },
+      "credit": "H.A. Buchory Rachman",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giri_Kedaton-Makam_Sunan_Giri.jpg",
+      "license": "CC BY-SA 3.0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-kudus",
+      "path": "/assets/verified/site-sunan-kudus.jpg",
+      "category": "destination",
+      "destinationId": "sunan-kudus",
+      "alt": {
+        "id": "Menara Kudus di kompleks masjid dan makam",
+        "en": "Menara Kudus di kompleks masjid dan makam"
+      },
+      "caption": {
+        "id": "Menara Kudus; bagian dari kompleks situs, bukan foto makam",
+        "en": "Menara Kudus; bagian dari kompleks situs, bukan foto makam"
+      },
+      "credit": "Ihsan Ariswanto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Menara_Kudus.JPG",
+      "license": "CC0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-kalijaga",
+      "path": "/assets/verified/site-sunan-kalijaga.jpg",
+      "category": "destination",
+      "destinationId": "sunan-kalijaga",
+      "alt": {
+        "id": "Gerbang kawasan makam Sunan Kalijaga di Kadilangu",
+        "en": "Gerbang kawasan makam Sunan Kalijaga di Kadilangu"
+      },
+      "caption": {
+        "id": "Gerbang makam dan pasar di Kadilangu; foto 2023",
+        "en": "Gerbang makam dan pasar di Kadilangu; foto 2023"
+      },
+      "credit": "DARMAS BS 9",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makam_Dan_Pasar_Di_Makam_Sunan_Kalijaga_Di_Kadilangu_Kab.Demak_Jateng_Indonesia.jpg",
+      "license": "CC BY-SA 4.0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "site-sunan-gunung-jati",
+      "path": "/assets/verified/site-gunung-jati.jpg",
+      "category": "destination",
+      "destinationId": "sunan-gunung-jati",
+      "alt": {
+        "id": "Dokumentasi arsip Astana Gunung Jati dekat Cirebon",
+        "en": "Dokumentasi arsip Astana Gunung Jati dekat Cirebon"
+      },
+      "caption": {
+        "id": "Arsip Tropenmuseum dari 1920-an; bukan kondisi saat ini",
+        "en": "Arsip Tropenmuseum dari 1920-an; bukan kondisi saat ini"
+      },
+      "credit": "G.F.J. Bley / Tropenmuseum",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Astana_Gunung_Jati_bij_Cheribon_TMnr_60005191.jpg",
+      "license": "CC BY-SA 3.0",
+      "heroEligible": true,
+      "objectPosition": "center"
+    },
+    {
+      "id": "food-kupat-keteg",
+      "path": "/assets/verified/kupat-keteg.jpg",
+      "category": "culinary",
+      "destinationId": "sunan-giri",
+      "alt": {
+        "id": "Kupat keteg khas Desa Giri, Gresik",
+        "en": "Kupat keteg khas Desa Giri, Gresik"
+      },
+      "caption": {
+        "id": "Kupat Keteg Gresik; foto sumber Disparekrafbudpora",
+        "en": "Kupat Keteg Gresik; foto sumber Disparekrafbudpora"
+      },
+      "credit": "Pemerintah Kabupaten Gresik (2022)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kupat_Keteg_Gresik.jpg",
+      "license": "Public domain Indonesia",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "food-sanggring",
+      "path": "/assets/verified/sanggring.jpg",
+      "category": "culinary",
+      "destinationId": "sunan-giri",
+      "alt": {
+        "id": "Sajian dan tradisi Kolak Ayam Sanggring di Gumeno",
+        "en": "Sajian dan tradisi Kolak Ayam Sanggring di Gumeno"
+      },
+      "caption": {
+        "id": "Tradisi Sanggring di Gumeno, Manyar; asal-usulnya merupakan tradisi lokal",
+        "en": "Tradisi Sanggring di Gumeno, Manyar; asal-usulnya merupakan tradisi lokal"
+      },
+      "credit": "Adnankasogi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cultural_Tradition_of_Sanggring_Chicken_Compote.jpg",
+      "license": "CC BY-SA 4.0",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "food-nasi-krawu",
+      "path": "/assets/verified/nasi-krawu.jpg",
+      "category": "culinary",
+      "destinationId": "sunan-giri",
+      "alt": {
+        "id": "Nasi krawu khas Gresik",
+        "en": "Nasi krawu khas Gresik"
+      },
+      "caption": {
+        "id": "Nasi krawu; hidangan khas Gresik",
+        "en": "Nasi krawu; hidangan khas Gresik"
+      },
+      "credit": "Sanko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krawu_rice.jpg",
+      "license": "CC BY-SA 3.0",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "food-jenang-kudus",
+      "path": "/assets/verified/jenang-kudus.jpg",
+      "category": "culinary",
+      "destinationId": "sunan-kudus",
+      "alt": {
+        "id": "Aneka jenang Kudus dalam kemasan",
+        "en": "Aneka jenang Kudus dalam kemasan"
+      },
+      "caption": {
+        "id": "Jenang Kudus",
+        "en": "Jenang Kudus"
+      },
+      "credit": "PL09Puryono",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jenang_Kudus.jpg",
+      "license": "CC0",
+      "heroEligible": false,
+      "objectPosition": "center"
+    },
+    {
+      "id": "food-empal-gentong",
+      "path": "/assets/verified/empal-gentong.jpg",
+      "category": "culinary",
+      "destinationId": "sunan-gunung-jati",
+      "alt": {
+        "id": "Semangkuk empal gentong Cirebon",
+        "en": "Semangkuk empal gentong Cirebon"
+      },
+      "caption": {
+        "id": "Empal gentong; foto hidangan, lokasi foto tidak ditetapkan sebagai Cirebon",
+        "en": "Empal gentong; foto hidangan, lokasi foto tidak ditetapkan sebagai Cirebon"
+      },
+      "credit": "swara dila",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indonesian_soup-Empal_Gentong-01.jpg",
+      "license": "CC BY 2.0",
+      "heroEligible": false,
+      "objectPosition": "center"
+    }
   ]
 }

@@ -2812,6 +2812,9 @@ const DESTINATION_BASE = [
 const destinationWithCompletion = DESTINATION_BASE.map((place) => {
   const completion = DESTINATION_COMPLETION[place.id] || {}
   const next = { ...place, ...completion }
+  if (Array.isArray(completion.references) && completion.references.length > 0) {
+    next.references = [...place.references, ...completion.references]
+  }
   if (completion.mapAddress) {
     next.location = completion.mapAddress
     next.locationInfo = { ...place.locationInfo, name: place.name, address: completion.mapAddress }
@@ -3039,23 +3042,38 @@ const reportFood = [
 ]
 const reportDish = (id, name, regency, destinationId, cover = null) => ({
   id, name, region: 'Jawa Timur', regency, regionKey: 'east-java',
-  tagline: { id: `Tercantum sebagai kuliner khas ${regency} dalam laporan wisata religi.`, en: `Listed as a local ${regency} specialty in the religious tourism report.` },
+  tagline: { id: `Kandidat kuliner ${regency} dari data proyek awal; belum diverifikasi sebagai sajian di situs.`, en: `A ${regency} food candidate from the original project data; not verified as food at the site.` },
   cover, coverSuggested: null,
-  history: { id: 'Informasi sedang dilengkapi.', en: 'Information is being completed.' },
-  process: { id: 'Harga bervariasi. Tanyakan bahan dan harga kepada penjual.', en: 'Prices vary. Ask the seller about ingredients and current prices.' },
-  priceRange: { id: 'Harga bervariasi', en: 'Prices vary' }, price: { id: 'Harga bervariasi', en: 'Prices vary' },
-  destinationId, destinationIds: [destinationId], source: 'Laporan_Wisata_Religi_Lima_Sunan.docx',
+  history: { id: 'Rincian hidangan belum dapat diverifikasi dari sumber yang dibuka; nama ini dipertahankan sebagai kandidat untuk riset lanjutan.', en: 'Dish details could not be verified in sources opened; this name is retained as a candidate for further research.' },
+  process: { id: 'Tanyakan bahan, harga, dan ketersediaan kepada penjual.', en: 'Ask sellers about ingredients, prices, and availability.' },
+  priceRange: { id: 'Harga bervariasi; belum diverifikasi', en: 'Prices vary; not verified' }, price: { id: 'Harga bervariasi; belum diverifikasi', en: 'Prices vary; not verified' },
+  destinationId, destinationIds: [destinationId], source: 'Catatan data proyek awal; sumber eksternal belum ditautkan.',
+  verification: { status: 'unverified', note: { id: 'Nama dan relevansi merupakan catatan lama yang belum memiliki sumber terverifikasi.', en: 'Name and relevance are legacy notes without a verified source.' } },
 })
 const reportDishes = reportFood.map(([id, name, area, destinationId]) => reportDish(id, name, area, destinationId, id === 'legen-siwalan' ? '/assets/culinary/tuban/legen-siwalan-illustration.jpeg' : null))
 CULINARY.push(...reportDishes)
+CULINARY.push(
+  { id: 'kropohan-demak', name: 'Kropohan (kuliner wilayah Demak)', region: 'Jawa Tengah', regency: 'Demak', regionKey: 'central-java', destinationId: 'sunan-kalijaga', destinationIds: ['sunan-kalijaga'], cover: null, tagline: { id: 'Nama kuliner yang tercatat dalam liputan perjalanan religi di Demak; resep dan penjual belum dirinci.', en: 'A food name recorded in a Demak religious-trip feature; recipe and vendors are not detailed.' }, history: { id: 'Sumber pemerintah daerah menyebut kropohan dalam konteks perjalanan religi Demak. Keterkaitan dengan kompleks Kadilangu atau tokoh tertentu tidak ditegaskan.', en: 'A local government source mentions kropohan in the context of a Demak religious trip. It does not establish a link to the Kadilangu complex or a specific figure.' }, process: { id: 'Belum ada foto hidangan berizin yang berhasil diverifikasi; dokumentasi sedang dilengkapi.', en: 'No licensed dish photo has yet been verified; documentation is being completed.' }, sourceUrl: 'https://pariwisata.demakkab.go.id/makam-sunan-kalijaga-demak/', relevance: { id: 'Konteks kuliner wilayah/rute Demak; bukan klaim makanan di kompleks makam.', en: 'Demak regional/route context; not claimed as food at the tomb complex.' }, verification: { status: 'partial' } },
+  { id: 'kuliner-colo-unverified', name: 'Kuliner lokal kawasan Colo (jenis belum dirinci)', region: 'Jawa Tengah', regency: 'Kudus', regionKey: 'central-java', destinationId: 'sunan-muria', destinationIds: ['sunan-muria'], cover: null, tagline: { id: 'Sumber Pemkab Kudus menyebut usaha kuliner di kawasan Colo, tanpa menyebut jenis hidangan.', en: 'A Kudus Regency source mentions culinary businesses in Colo, without naming dishes.' }, history: { id: 'Nama hidangan tertentu belum dapat diverifikasi dari sumber yang dibuka.', en: 'Specific dish names could not be verified from sources opened.' }, process: { id: 'Placeholder dokumentasi; bukan foto hidangan.', en: 'Documentation placeholder; not a dish photo.' }, sourceUrl: 'https://diskominfo.kuduskab.go.id/portal/berita/id/jadi-pusat-perekonomian-warga-colo-pj-bupati-sebut-sunan-muria-membawa-berkah', relevance: { id: 'Kawasan Colo, Kudus; jenis hidangan dan penjual belum disebutkan sumber.', en: 'Colo area, Kudus; source does not name dishes or vendors.' }, verification: { status: 'partial' } },
+)
+CULINARY.push(
+  { id: 'jenang-kudus', name: 'Jenang Kudus', region: 'Jawa Tengah', regency: 'Kudus', regionKey: 'central-java', destinationId: 'sunan-kudus', destinationIds: ['sunan-kudus'], cover: '/assets/verified/jenang-kudus.jpg', tagline: { id: 'Pangan khas Kudus; kaitannya dengan makam adalah konteks wilayah, bukan hidangan khusus kompleks.', en: 'A Kudus specialty; its link to the tomb is regional context, not a dish specific to the complex.' }, history: { id: 'Jenang dikenal sebagai produk pangan khas Kudus. Sumber pemerintah daerah mencatat tradisi dan museum jenang.', en: 'Jenang is recognized as a Kudus regional food product. Local government sources document jenang traditions and a dedicated museum.' }, process: { id: 'Bahan dan cara produksi berbeda menurut produsen; tanyakan komposisi kepada penjual.', en: 'Ingredients and production methods vary by maker; ask sellers about ingredients.' }, sourceUrl: 'https://kuduskab.go.id/6064c3c5-d7ea-4ce6-b5c6-f2becdcc9ebe', imageSource: 'PL09Puryono, Wikimedia Commons, CC0 — https://commons.wikimedia.org/wiki/File:Jenang_Kudus.jpg', relevance: { id: 'Kuliner khas daerah Kudus; lokasi penjual sekitar kompleks makam tidak diverifikasi.', en: 'Kudus regional food; sellers near the tomb complex have not been verified.' }, verification: { status: 'source-linked' } },
+  { id: 'empal-gentong', name: 'Empal Gentong', region: 'Jawa Barat', regency: 'Cirebon', regionKey: 'west-java', destinationId: 'sunan-gunung-jati', destinationIds: ['sunan-gunung-jati'], cover: '/assets/verified/empal-gentong.jpg', tagline: { id: 'Sup daging khas Cirebon; foto Wikimedia menggambarkan hidangan empal gentong.', en: 'Cirebon beef soup; the Wikimedia photo depicts empal gentong.' }, history: { id: 'Empal gentong termasuk kuliner khas Cirebon yang disebut dalam sumber pemerintah daerah.', en: 'Empal gentong is among Cirebon specialties mentioned by a local government source.' }, process: { id: 'Resep dan bahan dapat berbeda antarpenjual; konfirmasi bahan, harga, dan ketersediaan langsung.', en: 'Recipes and ingredients vary by vendor; confirm ingredients, prices, and availability directly.' }, sourceUrl: 'https://arsipweb2022.cirebonkab.go.id/news/2023/08/desa-wisata-religi-astana-gunungjati-kabupaten-cirebon-masuk-75-adwi-2023', imageSource: 'Risanprasetyo (Febri Ady Prasetyo), Wikimedia Commons, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Indonesian_soup-Empal_Gentong-01.jpg', relevance: { id: 'Kuliner wilayah Cirebon, bukan klaim sajian di kompleks Astana.', en: 'A Cirebon regional dish, not claimed as food served at Astana.' }, verification: { status: 'source-linked' } },
+)
 const pudakDish = CULINARY.find((item) => item.id === 'pudak')
 if (pudakDish) { pudakDish.cover = '/assets/culinary/gresik/pudak-illustration.jpeg'; pudakDish.destinationIds = ['malik-ibrahim', 'sunan-giri']; pudakDish.source = 'Laporan_Wisata_Religi_Lima_Sunan.docx'; pudakDish.illustration = true }
 const bandengDish = CULINARY.find((item) => item.id === 'bandeng')
-if (bandengDish) { bandengDish.cover = '/assets/culinary/gresik/otak-otak-bandeng-illustration.jpeg'; bandengDish.destinationId = 'malik-ibrahim'; bandengDish.destinationIds = ['malik-ibrahim']; bandengDish.source = 'Laporan_Wisata_Religi_Lima_Sunan.docx'; bandengDish.illustration = true }
+if (bandengDish) { bandengDish.cover = null; bandengDish.destinationId = 'malik-ibrahim'; bandengDish.destinationIds = ['malik-ibrahim']; bandengDish.source = 'Informasi proyek awal; belum diverifikasi' }
+const rujakDish = CULINARY.find((item) => item.id === 'rujak-cingur')
+if (rujakDish) rujakDish.source = 'Data proyek awal; belum diverifikasi dengan sumber khusus.'
 const krawuDish = CULINARY.find((item) => item.id === 'nasi-krawu')
-if (krawuDish) { krawuDish.destinationId = 'malik-ibrahim'; krawuDish.destinationIds = ['malik-ibrahim']; krawuDish.source = 'Laporan_Wisata_Religi_Lima_Sunan.docx' }
+if (krawuDish) { krawuDish.cover = '/assets/verified/nasi-krawu.jpg'; krawuDish.destinationId = 'malik-ibrahim'; krawuDish.destinationIds = ['malik-ibrahim', 'sunan-giri']; krawuDish.sourceUrl = 'https://disparekrafbudpora.gresikkab.go.id/detailpost/nasi-krawu-gresik'; krawuDish.imageSource = 'Sanko, Wikimedia Commons, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Krawu_rice.jpg'; krawuDish.history = { id: 'Pemerintah Kabupaten Gresik mencatat nasi krawu sebagai kuliner khas Gresik; rincian bahan dan penyajian dapat berbeda.', en: 'Gresik Regency identifies nasi krawu as a local specialty; ingredients and serving details may vary.' }; krawuDish.verification = { status: 'source-linked' }; krawuDish.relevance = { id: 'Kuliner khas Kabupaten Gresik; hubungan dengan situs Sunan Giri bersifat regional.', en: 'A Gresik Regency specialty; its link to Sunan Giri is regional.' } }
 const legenDish = CULINARY.find((item) => item.id === 'legen-siwalan')
 if (legenDish) legenDish.illustration = true
+const kupatKeteg = CULINARY.find((item) => item.id === 'kupat-keteg')
+if (kupatKeteg) { kupatKeteg.cover = '/assets/verified/kupat-keteg.jpg'; kupatKeteg.sourceUrl = 'https://disparekrafbudpora.gresikkab.go.id/detailpost/kupat-keteg'; kupatKeteg.imageSource = 'Pemerintah Kabupaten Gresik (2022), public domain — https://commons.wikimedia.org/wiki/File:Kupat_Keteg_Gresik.jpg'; kupatKeteg.history = { id: 'Dinas pariwisata Gresik mencatat kupat keteg sebagai kuliner khas Desa Giri, Kebomas.', en: 'Gresik tourism office identifies kupat keteg as a specialty of Giri Village, Kebomas.' }; kupatKeteg.verification = { status: 'source-linked' }; kupatKeteg.relevance = { id: 'Kuliner Desa Giri, Kebomas, wilayah situs Sunan Giri.', en: 'A dish from Giri Village, Kebomas, the area of the Sunan Giri site.' } }
+const sanggringDish = CULINARY.find((item) => item.id === 'kolak-ayam')
+if (sanggringDish) { sanggringDish.cover = '/assets/verified/sanggring.jpg'; sanggringDish.destinationIds = ['malik-ibrahim', 'sunan-giri']; sanggringDish.sourceUrl = 'https://disparekrafbudpora.gresikkab.go.id/detailpost/kolak-ayam-sanggring'; sanggringDish.imageSource = 'Adnankasogi, Wikimedia Commons, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Cultural_Tradition_of_Sanggring_Chicken_Compote.jpg'; sanggringDish.history = { id: 'Sumber pemerintah Gresik mencatat Kolak Ayam Sanggring sebagai tradisi kuliner Desa Gumeno, Manyar, yang disajikan pada malam 23 Ramadan.', en: 'Gresik government sources document Kolak Ayam Sanggring as a culinary tradition from Gumeno, Manyar, served on the night of 23 Ramadan.' }; sanggringDish.verification = { status: 'source-linked' }; sanggringDish.relevance = { id: 'Tradisi kuliner Desa Gumeno, Manyar; bukan hidangan di kompleks makam Sunan Giri.', en: 'A culinary tradition from Gumeno, Manyar; not a dish at the Sunan Giri tomb complex.' } }
 
 export const PRODUCTS = [
   {
@@ -3180,21 +3198,24 @@ const reportSouvenirs = [
 ]
 const reportProduct = ([id, name, regency, destinationId]) => ({
   id, name, region: 'Jawa Timur', regency, regionKey: 'east-java', destinationId,
-  tagline: { id: `Oleh-oleh ${regency} yang disebut dalam laporan wisata religi.`, en: `${regency} souvenir listed in the religious tourism report.` },
+  tagline: { id: `Kandidat produk ${regency} dari data proyek awal; penjual di sekitar situs belum diverifikasi.`, en: `A ${regency} product candidate from the original project data; sellers near the site are unverified.` },
   cover: id === 'wingko-babat' ? '/assets/culinary/lamongan/wingko-babat-illustration.jpeg' : null,
   price: { id: 'Harga bervariasi', en: 'Prices vary' },
-  history: { id: 'Laporan mencantumkan produk ini sebagai oleh-oleh daerah. Informasi rinci sedang dilengkapi.', en: 'The report lists this item as a regional souvenir. More detail is being completed.' },
-  process: { id: 'Informasi sedang dilengkapi.', en: 'Information is being completed.' },
+  history: { id: 'Rincian produk belum dapat diverifikasi dari sumber yang dibuka; nama ini dipertahankan sebagai kandidat untuk riset lanjutan.', en: 'Product details could not be verified in sources opened; this name is retained as a candidate for further research.' },
+  process: { id: 'Konfirmasi bahan, harga, dan ketersediaan secara langsung.', en: 'Confirm ingredients, price, and availability directly.' },
   nearbyShop: { id: 'Nama dan alamat penjual tidak tersedia. Tanyakan langsung di lokasi.', en: 'Seller names and addresses are not available. Ask locally.' },
-  source: 'Laporan_Wisata_Religi_Lima_Sunan.docx', illustration: id === 'wingko-babat',
+  source: 'Catatan data proyek awal; sumber eksternal belum ditautkan.', illustration: id === 'wingko-babat',
+  verification: { status: 'unverified', note: { id: 'Nama dan relevansi merupakan catatan lama yang belum memiliki sumber terverifikasi.', en: 'Name and relevance are legacy notes without a verified source.' } },
 })
 PRODUCTS.push(...reportSouvenirs.filter(([id]) => !PRODUCTS.some((item) => item.id === id)).map(reportProduct))
+PRODUCTS.push({ id: 'produk-colo-unverified', name: 'Produk lokal dan oleh-oleh Colo (jenis belum dirinci)', region: 'Jawa Tengah', regency: 'Kudus', regionKey: 'central-java', destinationId: 'sunan-muria', destinationIds: ['sunan-muria'], cover: null, tagline: { id: 'Pemkab Kudus melaporkan usaha oleh-oleh di kawasan Colo; jenis produk belum disebutkan.', en: 'Kudus Regency reports souvenir businesses in Colo; products are not specified.' }, history: { id: 'Nama produk dan produsen belum terverifikasi.', en: 'Product and maker names have not been verified.' }, process: { id: 'Dokumentasi visual sedang dilengkapi.', en: 'Visual documentation is being completed.' }, nearbyShop: { id: 'Tanyakan pilihan dan lokasi penjual kepada pengelola setempat.', en: 'Ask local management about options and seller locations.' }, sourceUrl: 'https://diskominfo.kuduskab.go.id/portal/berita/id/jadi-pusat-perekonomian-warga-colo-pj-bupati-sebut-sunan-muria-membawa-berkah', relevance: { id: 'Informasi usaha kawasan, bukan produk tertentu yang telah terverifikasi.', en: 'Regional business context, not a verified individual product.' }, verification: { status: 'partial' } })
+PRODUCTS.push({ id: 'jenang-kudus-product', name: 'Jenang Kudus', region: 'Jawa Tengah', regency: 'Kudus', regionKey: 'central-java', destinationId: 'sunan-kudus', destinationIds: ['sunan-kudus'], cover: '/assets/verified/jenang-kudus.jpg', tagline: { id: 'Produk pangan khas Kudus; ketersediaan di kompleks makam belum diverifikasi.', en: 'A Kudus specialty food product; availability at the tomb complex is unverified.' }, history: { id: 'Jenang dikenal sebagai produk khas Kudus. Produk, komposisi, dan produsen berbeda-beda.', en: 'Jenang is recognized as a Kudus specialty. Product, ingredients, and makers vary.' }, process: { id: 'Periksa komposisi dan masa simpan pada kemasan.', en: 'Check ingredients and shelf life on the package.' }, nearbyShop: { id: 'Nama penjual dan lokasi sekitar kompleks belum diverifikasi.', en: 'Seller names and locations near the complex are unverified.' }, sourceUrl: 'https://kuduskab.go.id/6064c3c5-d7ea-4ce6-b5c6-f2becdcc9ebe', imageSource: 'PL09Puryono, Wikimedia Commons, CC0 — https://commons.wikimedia.org/wiki/File:Jenang_Kudus.jpg', relevance: { id: 'Produk daerah Kudus, tidak diklaim dijual di makam.', en: 'A Kudus regional product, not claimed to be sold at the tomb.' }, verification: { status: 'source-linked' } })
 const pudakProduct = PRODUCTS.find((item) => item.id === 'pudak-product')
-if (pudakProduct) { pudakProduct.cover = '/assets/culinary/gresik/pudak-illustration.jpeg'; pudakProduct.price = { id: 'Harga bervariasi', en: 'Prices vary' }; pudakProduct.source = 'Laporan_Wisata_Religi_Lima_Sunan.docx'; pudakProduct.illustration = true }
+if (pudakProduct) { pudakProduct.cover = '/assets/culinary/gresik/pudak-illustration.jpeg'; pudakProduct.price = { id: 'Harga bervariasi', en: 'Prices vary' }; pudakProduct.source = 'Data proyek awal; verifikasi harga dan penjual secara lokal'; pudakProduct.illustration = true; pudakProduct.destinationId = 'malik-ibrahim'; pudakProduct.destinationIds = ['malik-ibrahim', 'sunan-giri']; pudakProduct.imageSource = 'Ilustrasi arsip proyek; bukan foto dokumenter.' }
 const songkokProduct = PRODUCTS.find((item) => item.id === 'songkok')
 if (songkokProduct) songkokProduct.price = { id: 'Harga bervariasi', en: 'Prices vary' }
 const batikProduct = PRODUCTS.find((item) => item.id === 'batik')
-if (batikProduct) { batikProduct.cover = '/assets/heritage/batik-gresik.jpg'; batikProduct.price = { id: 'Harga bervariasi', en: 'Prices vary' } }
+if (batikProduct) { batikProduct.cover = '/assets/heritage/batik-gresik.jpg'; batikProduct.imageSource = 'Arsip proyek; nama pembuat dan lisensi belum tercatat.'; batikProduct.price = { id: 'Harga bervariasi', en: 'Prices vary' } }
 const songkokLinks = PRODUCTS.find((item) => item.id === 'songkok')
 if (songkokLinks) { songkokLinks.destinationId = 'malik-ibrahim'; songkokLinks.destinationIds = ['malik-ibrahim', 'sunan-giri']; songkokLinks.source = 'Laporan_Wisata_Religi_Lima_Sunan.docx' }
 for (const place of DESTINATIONS) {
@@ -4194,7 +4215,7 @@ export const EVENTS = [
 /* ============================ helpers ============================ */
 /** Classification of every important claim. CSS class suffix via factClass(). */
 export const FACT_TYPES = {
-  historical_fact: { id: "Fakta historis", en: "Historical fact" },
+  historical_fact: { id: "Fakta sejarah terdokumentasi", en: "Documented historical fact" },
   academic_interpretation: { id: "Interpretasi akademik", en: "Academic interpretation" },
   local_tradition: { id: "Tradisi lokal", en: "Local tradition" },
   unverified: { id: "Belum terverifikasi", en: "Unverified" },

@@ -12,6 +12,7 @@
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
     "lint": "eslint",
+    "audit:content": "node scripts/audit-content.mjs",
     "format": "prettier --write . && eslint --fix",
     "check": "prettier --check ."
   },
