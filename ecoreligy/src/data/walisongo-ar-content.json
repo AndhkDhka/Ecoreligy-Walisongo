@@ -1,0 +1,652 @@
+{
+  "sourceDocument": "docs/ar/Basis_Konten_AR_EcoReligi_Wali_Songo.docx",
+  "profiles": [
+    {
+      "id": "malik-ibrahim",
+      "name": "Maulana Malik Ibrahim",
+      "aliases": "Maulana Malik Ibrahim; dikenal pula sebagai Sunan Gresik, Syekh Maghribi, dan Kakek Bantal dalam tradisi setempat.",
+      "biography": "Salah satu tokoh awal penyebaran Islam di Jawa yang dalam tradisi Wali Songo ditempatkan sebagai wali generasi awal. Asal-usulnya sering dihubungkan dengan kawasan Asia Barat atau Asia Tengah, tetapi rincian tempat kelahiran dan jalur kedatangannya tidak seragam dalam sumber.",
+      "history": "Tradisi sejarah Gresik menggambarkan Maulana Malik Ibrahim berdakwah melalui hubungan sosial, perdagangan, pendidikan, dan pelayanan kepada masyarakat. Pendekatan yang dikaitkan dengannya menekankan komunikasi yang dekat dengan kehidupan sehari-hari masyarakat pesisir. Perannya penting dalam ingatan kolektif tentang awal perkembangan komunitas Islam di Gresik. Hubungan keluarga dengan Sunan Ampel memiliki versi yang berbeda; jangan menampilkan hubungan ayah-anak sebagai kepastian tunggal.",
+      "tombLocation": "Kompleks Makam Maulana Malik Ibrahim, kawasan Gapuro Sukolilo, Kecamatan/Kabupaten Gresik, Jawa Timur. Alamat yang dicantumkan pada dokumen awal: Jl. Malik Ibrahim No. 52–62, Desa Gapuro Sukolilo, Gresik. Pastikan alamat operasional dan akses terkini sebelum dipublikasikan.",
+      "heritageItems": [
+        {
+          "name": "Situs makam dan nisan",
+          "description": "Kompleks makam tua dengan nisan batu berinskripsi Arab dan bentuk yang dalam kajian populer sering dibahas memiliki pengaruh gaya luar Jawa. Deskripsi bentuk dan asal material perlu dirujuk pada kajian epigrafi/arkeologi sebelum dibuat lebih spesifik."
+        },
+        {
+          "name": "Warisan dakwah",
+          "description": "Ingatan lokal tentang dakwah melalui perdagangan, pendidikan, dan hubungan sosial; ini merupakan warisan naratif, bukan benda pribadi yang teridentifikasi."
+        }
+      ],
+      "historicalNotes": [
+        "Tanggal wafat 12 Rabiulawal 822 H/sekitar 1419 M banyak dikutip, tetapi rincian biografi dan silsilah perlu diberi penanda tradisi/rujukan. Dokumen awal pengguna juga menyebut adanya perbedaan versi hubungan keluarga dengan Sunan Ampel."
+      ],
+      "sources": [
+        {
+          "title": "Laporan Wisata Religi Lima Sunan (sumber awal; daftar rujukannya masih umum)",
+          "publisher": "Dokumen pengguna",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sunan-ampel",
+      "name": "Sunan Ampel",
+      "aliases": "Raden Rahmat; dalam dokumen awal disebut Raden Muhammad Ali Rahmatullah.",
+      "biography": "Tokoh Wali Songo yang berpusat di Ampeldenta, Surabaya. Dokumen awal menyebut kelahiran sekitar 1401 M di Champa dan wafat sekitar 1481 M, dengan variasi tahun wafat dalam sebagian sumber.",
+      "history": "Sunan Ampel dikenal melalui pengembangan pusat pendidikan dan dakwah di Ampeldenta. Masjid dan lingkungan pesantren menjadi pusat pembelajaran Islam serta jaringan murid yang berpengaruh dalam perkembangan Islam di Jawa. Ajaran populer yang dilekatkan kepadanya adalah “Moh Limo”, yaitu ajakan menjauhi lima perilaku tercela. Nama murid dan hubungan keluarga dalam tradisi Wali Songo sebaiknya disajikan sebagai tradisi historiografi bila tidak didukung sumber primer.",
+      "tombLocation": "Kompleks Makam Sunan Ampel, di sisi barat kawasan Masjid Ampel, Kelurahan Ampel, Kecamatan Semampir, Kota Surabaya, Jawa Timur. Dokumen awal mencantumkan Jl. Masjid Ampel No. 53.",
+      "heritageItems": [
+        {
+          "name": "Masjid dan kawasan Ampel",
+          "description": "Masjid Ampel dan kawasan permukiman/niaga di sekitarnya merupakan situs hidup yang merekam perkembangan komunitas Islam dan budaya perkotaan Surabaya."
+        },
+        {
+          "name": "Tradisi Moh Limo",
+          "description": "Warisan ajaran moral yang populer dikaitkan dengan Sunan Ampel; tampilkan sebagai ajaran dalam tradisi, bukan kutipan manuskrip yang telah diverifikasi."
+        },
+        {
+          "name": "Jaringan pendidikan",
+          "description": "Ingatan tentang Ampeldenta sebagai pusat pendidikan dan jaringan murid merupakan warisan sejarah dakwah."
+        }
+      ],
+      "historicalNotes": [
+        "Tahun lahir/wafat dan detail silsilah memiliki variasi antar sumber. Jangan menampilkan satu angka sebagai tanggal pasti tanpa sumber khusus."
+      ],
+      "sources": [
+        {
+          "title": "Laporan Wisata Religi Lima Sunan (sumber awal; daftar rujukannya masih umum)",
+          "publisher": "Dokumen pengguna",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sunan-giri",
+      "name": "Sunan Giri",
+      "aliases": "Raden Paku; dikenal pula sebagai Joko Samudro, Muhammad Ainul Yaqin, dan Prabu Satmata dalam tradisi.",
+      "biography": "Tokoh Wali Songo yang membangun pusat dakwah dan pendidikan di kawasan Giri, Gresik. Dokumen awal menyebut lahir sekitar 1442 M di Blambangan dan wafat sekitar 1506 M. Orang tua yang disebut dalam tradisi adalah Maulana Ishaq dan Dewi Sekardadu; ia kemudian diasuh Nyai Ageng Pinatih.",
+      "history": "Sunan Giri dikaitkan dengan pendirian Giri Kedaton, sebuah pusat keagamaan dan kekuasaan yang berpengaruh di kawasan perbukitan Gresik. Jaringan murid dan pengaruh dakwahnya meluas ke berbagai wilayah Nusantara menurut tradisi sejarah. Ia juga dikenang melalui pendidikan, kesenian, dan tembang/permainan anak yang dihubungkan dengan dakwah. Klaim spesifik mengenai penciptaan karya tertentu perlu dibedakan antara tradisi dan bukti dokumenter.",
+      "tombLocation": "Kompleks Makam Sunan Giri, Dusun Giri Gajah, Desa Giri, Kecamatan Kebomas, Kabupaten Gresik, Jawa Timur. Situs Giri Kedaton berada di kawasan bersejarah yang terkait dengan pusat dakwah dan pemerintahan Giri.",
+      "heritageItems": [
+        {
+          "name": "Giri Kedaton",
+          "description": "Situs arkeologis/bersejarah yang berkaitan dengan pusat pemerintahan dan pendidikan Giri. Ini merupakan peninggalan kawasan, bukan benda pribadi."
+        },
+        {
+          "name": "Kompleks makam",
+          "description": "Kompleks makam Sunan Giri dan tokoh-tokoh yang dikaitkan dengan lingkungan Giri."
+        },
+        {
+          "name": "Tradisi seni dan pendidikan",
+          "description": "Tembang, permainan anak, dan tradisi dakwah yang dikaitkan dengan Sunan Giri; atribusi masing-masing karya harus diberi label tradisi bila tidak ada bukti tertulis yang kuat."
+        }
+      ],
+      "historicalNotes": [
+        "Tanggal lahir/wafat dan sejumlah kisah masa kecil berasal dari tradisi biografi. Jangan menyatakan semua tembang/permainan sebagai ciptaan langsung tanpa verifikasi."
+      ],
+      "sources": [
+        {
+          "title": "Laporan Wisata Religi Lima Sunan (sumber awal; daftar rujukannya masih umum)",
+          "publisher": "Dokumen pengguna",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sunan-bonang",
+      "name": "Sunan Bonang",
+      "aliases": "Raden Makdum Ibrahim; putra Sunan Ampel menurut tradisi Wali Songo.",
+      "biography": "Tokoh Wali Songo yang berdakwah di wilayah pesisir utara Jawa, terutama Tuban. Dokumen awal menyebut wafat sekitar 1525 M.",
+      "history": "Sunan Bonang dikenang melalui dakwah yang memanfaatkan seni, sastra, tembang, dan musik tradisional. Tradisi mengaitkannya dengan penggunaan gamelan dan pendekatan budaya untuk menyampaikan ajaran Islam. Pengaruhnya juga dihubungkan dengan murid-murid dan jaringan dakwah di Jawa. Cerita mengenai penciptaan alat musik atau karya tertentu perlu diperlakukan sebagai tradisi kecuali ada bukti artefak atau naskah yang dapat ditelusuri.",
+      "tombLocation": "Kompleks Makam Sunan Bonang di kawasan Kauman/Kutorejo, dekat Masjid Agung Tuban dan Alun-alun Tuban, Kabupaten Tuban, Jawa Timur. Dokumen awal mencatat adanya tradisi lokasi makam alternatif; makam Tuban merupakan lokasi ziarah yang paling dikenal.",
+      "heritageItems": [
+        {
+          "name": "Kompleks makam Tuban",
+          "description": "Situs ziarah yang berkembang di pusat kota Tuban."
+        },
+        {
+          "name": "Warisan seni dakwah",
+          "description": "Tradisi tembang, sastra, dan penggunaan musik/gamelan dalam dakwah yang dilekatkan kepada Sunan Bonang. Ini warisan budaya takbenda/tradisi, bukan bukti otomatis bahwa perangkat gamelan tertentu adalah milik pribadinya."
+        },
+        {
+          "name": "Nama bonang",
+          "description": "Hubungan nama tokoh dengan instrumen bonang sering diceritakan dalam tradisi populer; jangan menyajikannya sebagai fakta etimologis pasti tanpa rujukan khusus."
+        }
+      ],
+      "historicalNotes": [
+        "Tahun wafat dan lokasi makam alternatif berbeda dalam sejumlah tradisi. Konten AR sebaiknya menyebut kompleks Tuban sebagai lokasi makam yang paling umum diziarahi dan memberi catatan variasi tradisi."
+      ],
+      "sources": [
+        {
+          "title": "Laporan Wisata Religi Lima Sunan (sumber awal; daftar rujukannya masih umum)",
+          "publisher": "Dokumen pengguna",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sunan-drajat",
+      "name": "Sunan Drajat",
+      "aliases": "Raden Qasim; juga disebut Raden Syarifuddin, Maulana Hasyim, Pangeran Kadrajat, atau Sunan Mayang Madu dalam tradisi.",
+      "biography": "Tokoh Wali Songo yang berdakwah di wilayah pesisir Lamongan. Dokumen awal menyebut lahir sekitar 1470 M di Ampeldenta dan wafat sekitar 1522 M; ia dikenal sebagai putra Sunan Ampel dalam tradisi keluarga Wali Songo.",
+      "history": "Sunan Drajat dikenang karena perhatian terhadap kesejahteraan sosial, kepedulian kepada masyarakat miskin, dan pendidikan moral. Tradisi menghubungkannya dengan tembang Pangkur dan ajaran Catur Piwulang. Kawasan makam memiliki teras bertingkat yang menjadi bagian dari pengalaman ziarah dan lanskap situs.",
+      "tombLocation": "Kompleks Makam Sunan Drajat, Desa Drajat, Kecamatan Paciran, Kabupaten Lamongan, Jawa Timur.",
+      "heritageItems": [
+        {
+          "name": "Museum Sunan Drajat",
+          "description": "Museum di kawasan situs menyimpan koleksi yang dikaitkan dengan sejarah Sunan Drajat."
+        },
+        {
+          "name": "Gamelan Singo Mengkok",
+          "description": "Koleksi yang disebut dalam dokumen awal sebagai bagian dari museum. Untuk AR, tampilkan sebagai koleksi museum yang dikaitkan dengan tradisi Sunan Drajat, bukan otomatis benda yang terbukti dibuat/dimiliki langsung olehnya."
+        },
+        {
+          "name": "Tembang Pangkur dan Catur Piwulang",
+          "description": "Warisan ajaran dan tradisi lisan/sastra yang dikaitkan dengan nilai kepedulian sosial."
+        },
+        {
+          "name": "Struktur makam bertingkat",
+          "description": "Elemen arsitektur dan tata ruang kompleks makam yang dapat divisualisasikan dari foto situs."
+        }
+      ],
+      "historicalNotes": [
+        "Kisah dayung perahu yang menyelamatkan Sunan Drajat disebut dalam tradisi dan dokumen awal; perlu label “menurut tradisi” bila digunakan. Tahun hidup tidak boleh dianggap pasti."
+      ],
+      "sources": [
+        {
+          "title": "Laporan Wisata Religi Lima Sunan (sumber awal; daftar rujukannya masih umum)",
+          "publisher": "Dokumen pengguna",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "sunan-gunung-jati",
+      "name": "Sunan Gunung Jati",
+      "aliases": "Syarif Hidayatullah; dikenal sebagai Sunan Gunung Jati. Nama dan silsilah memiliki beberapa versi dalam historiografi lokal.",
+      "biography": "Tokoh Wali Songo yang berperan sebagai ulama dan pemimpin Kesultanan Cirebon. Sumber pemerintah menyebut tahun hidup 1448–1568 M, sedangkan sebagian kajian membahas variasi tradisi asal-usul dan kronologi. Ia berperan penting dalam perkembangan Islam di wilayah Cirebon dan Jawa bagian barat.",
+      "history": "Sunan Gunung Jati mengembangkan dakwah dan kepemimpinan di Cirebon. Kajian sejarah Cirebon menempatkannya dalam proses pembentukan kesultanan, penguatan pusat keagamaan, dan hubungan politik di pesisir utara Jawa bagian barat. Sumber Bank Indonesia yang memuat kajian sejarah Cirebon menyebut keterkaitannya dengan pembangunan/pengembangan masjid besar di Cirebon dan hubungan dengan jaringan politik-keagamaan setempat. Hindari menyederhanakan seluruh proses Islamisasi Jawa Barat sebagai hasil satu tokoh saja.",
+      "tombLocation": "Kompleks Makam Sunan Gunung Jati di Gunung Sembung, Desa Astana, Kecamatan Gunung Jati, Kabupaten Cirebon, Jawa Barat. Sumber pemerintah dan kajian akademik membedakan Gunung Sembung sebagai lokasi makam Sunan Gunung Jati; nama Gunung Jati juga dipakai untuk kawasan pemakaman yang lebih luas.",
+      "heritageItems": [
+        {
+          "name": "Kompleks makam Gunung Sembung",
+          "description": "Kompleks pemakaman bersejarah dengan susunan gerbang, ruang, dan ornamen yang memperlihatkan pertemuan unsur budaya Jawa, Arab, dan Tionghoa."
+        },
+        {
+          "name": "Masjid Agung Sang Cipta Rasa",
+          "description": "Masjid bersejarah di Cirebon yang berkaitan dengan perkembangan pusat Islam pada masa Kesultanan Cirebon. Jangan mengklaim seluruh bangunan yang terlihat sekarang dibangun langsung oleh Sunan Gunung Jati tanpa pembahasan fase renovasi."
+        },
+        {
+          "name": "Warisan kepemimpinan Cirebon",
+          "description": "Pembentukan dan perkembangan Kesultanan Cirebon merupakan warisan sejarah politik dan keagamaan yang terkait dengan perannya."
+        }
+      ],
+      "historicalNotes": [
+        "Sumber Setwapres menyebut 1448–1568 M dan makam di Cirebon. Kajian akademik menguraikan konteks dan versi tradisi. Kompleks makam luas; titik makam tokoh tidak boleh disamakan dengan seluruh area Gunung Jati."
+      ],
+      "sources": [
+        {
+          "title": "Ziarah Makam Sunan Gunung Jati (2019)",
+          "publisher": "Wakil Presiden RI",
+          "url": "https://wapresri.go.id/ziarah-makam-sunan-gunung-jati/"
+        },
+        {
+          "title": "Buku Seri Sejarah Heritage Cirebon",
+          "publisher": "Bank Indonesia",
+          "url": "https://www.bi.go.id/id/bi-institute/publikasi/Documents/Buku_Seri_Sejarah-Heritage-Cirebon.pdf"
+        },
+        {
+          "title": "",
+          "publisher": "UIN / kajian Inskripsi Keagamaan di Cirebon",
+          "url": "https://simlitbang.balitbangdiklat.net/assets_front/pdf/15943678574_inskripsi_OK_2.pdf"
+        },
+        {
+          "title": "Peranan Sunan Gunung Jati dalam Kesultanan Cirebon 1479–1568",
+          "publisher": "UNY",
+          "url": "https://eprints.uny.ac.id/28478/"
+        }
+      ]
+    },
+    {
+      "id": "sunan-muria",
+      "name": "Sunan Muria",
+      "aliases": "Raden Umar Said/Raden Umar Syahid dalam sejumlah tradisi; nama dan silsilahnya memiliki versi berbeda.",
+      "biography": "Tokoh Wali Songo yang wilayah dakwahnya dikaitkan dengan kawasan pedalaman sekitar Gunung Muria, terutama Kudus, Pati, dan sekitarnya. Pemerintah Kabupaten Kudus menyebut terdapat lebih dari satu versi silsilah, termasuk versi yang menyebutnya putra Sunan Kalijaga.",
+      "history": "Sunan Muria dikenal melalui dakwah yang menjangkau masyarakat pedalaman dan komunitas di sekitar Gunung Muria. Sumber Pemerintah Kabupaten Kudus menggambarkan pendekatannya sebagai dakwah bertahap yang berinteraksi dengan adat dan kebiasaan masyarakat setempat. Sumber yang sama mengaitkannya dengan tembang macapat Sinom dan Kinanti. Atribusi penciptaan tembang harus tetap diberi label tradisi, bukan kepastian penciptaan berdasarkan manuskrip.",
+      "tombLocation": "Kompleks Makam dan Masjid Sunan Muria, Desa Colo, Kecamatan Dawe, Kabupaten Kudus, Jawa Tengah, di kawasan Bukit Muria. Data Cagar Budaya Kementerian Kebudayaan mencatat situs ini sebagai cagar budaya peringkat nasional.",
+      "heritageItems": [
+        {
+          "name": "Kompleks Makam dan Masjid Sunan Muria",
+          "description": "Situs cagar budaya nasional. Data Cagar Budaya mencantumkan penetapan SK 299/M/1999 tanggal 29 November 1999."
+        },
+        {
+          "name": "Bagian kuno masjid",
+          "description": "Pemerintah Kabupaten Kudus menyebut sisa unsur masjid lama berupa ruang mihrab bermotif lengkung Arab serta bedug dan gantungannya yang berhias motif fauna dan sulur."
+        },
+        {
+          "name": "Tembang Sinom dan Kinanti",
+          "description": "Warisan seni tradisi yang dikaitkan dengan dakwah Sunan Muria menurut sumber pemerintah daerah; sebut sebagai atribusi tradisi."
+        }
+      ],
+      "historicalNotes": [
+        "Silsilah Sunan Muria tidak tunggal. Jangan menyebut hubungan ayah-anak sebagai kepastian. Data cagar budaya menyebut ketinggian kawasan lebih dari 1.600 mdpl; ini bukan tinggi bangunan makam."
+      ],
+      "sources": [
+        {
+          "title": "Makam Sunan Muria (28 Nov 2024)",
+          "publisher": "Pemkab Kudus",
+          "url": "https://kuduskab.go.id/index.php/d3f80ded-5789-468f-ba3d-78ac13ed77ea"
+        },
+        {
+          "title": "Makam dan Masjid Sunan Muria",
+          "publisher": "Data Cagar Budaya Kementerian Kebudayaan",
+          "url": "https://budaya.data.kemdikbud.go.id/cagarbudaya/objek/KB000349"
+        },
+        {
+          "title": "Peradaban Islam: Penelusuran Jejak Sejarah",
+          "publisher": "UIN Sunan Kalijaga",
+          "url": "https://digilib.uin-suka.ac.id/id/eprint/47805/1/Peradaban%20Islam%20Penelusuran%20Jejak%20sejarah.pdf"
+        }
+      ]
+    },
+    {
+      "id": "sunan-kalijaga",
+      "name": "Sunan Kalijaga",
+      "aliases": "Raden Sahid; nama dan kisah masa mudanya beragam dalam babad dan tradisi lisan.",
+      "biography": "Tokoh Wali Songo yang dikenal berdakwah di wilayah Demak dan sekitarnya. Ia dikenang sebagai pendakwah yang memanfaatkan kesenian dan budaya Jawa. Kronologi hidupnya berbeda-beda dalam sumber tradisional; karena itu tahun lahir/wafat tidak dicantumkan sebagai angka pasti dalam profil ringkas ini.",
+      "history": "Sunan Kalijaga sering dikaitkan dengan pendekatan dakwah melalui seni pertunjukan, tembang, dan simbol budaya lokal. Ia juga memiliki hubungan erat dengan kawasan Kadilangu di Demak. Kajian dan tradisi lokal mengaitkan dirinya dengan Masjid Kadilangu serta pelestarian tradisi keluarga. Cerita populer tentang wayang, gamelan, dan kisah masa muda harus ditampilkan dengan label “tradisi/babad” jika tidak didukung sumber sezaman.",
+      "tombLocation": "Kompleks Makam Sunan Kalijaga di Kadilangu, Kabupaten Demak, Jawa Tengah, dekat Masjid Kadilangu. Dinas Pariwisata Demak dan portal pariwisata Jawa Tengah menyebut Kadilangu sebagai lokasi makam yang dikenal luas; terdapat pula tradisi alternatif yang mengaitkan lokasi lain, sehingga catatan historiografi tetap perlu dicantumkan.",
+      "heritageItems": [
+        {
+          "name": "Masjid Kadilangu",
+          "description": "Bangunan dan kawasan bersejarah yang berkaitan dengan aktivitas dakwah Sunan Kalijaga di Kadilangu."
+        },
+        {
+          "name": "Tradisi penjamasan pusaka",
+          "description": "Dinas Pariwisata Demak menyebut tradisi penjamasan Kutang Antakusuma dan Keris Kyai Carubug, serta prosesi Ancakan dan Ruwatan. Ini tradisi yang dilestarikan ahli waris/masyarakat, bukan bukti otomatis bahwa artefak yang ada saat ini dibuat olehnya."
+        },
+        {
+          "name": "Warisan seni dakwah",
+          "description": "Tradisi penggunaan wayang, tembang, dan seni lokal dalam dakwah yang dikaitkan dengan Sunan Kalijaga; perlu label tradisi."
+        }
+      ],
+      "historicalNotes": [
+        "Kajian UIN Sunan Kalijaga mencatat tidak ada kesepakatan tunggal dalam naskah historiografi tentang tahun wafat dan membahas adanya tradisi lokasi makam alternatif. Gunakan rumusan “makam yang paling dikenal/diziarahi berada di Kadilangu, Demak”."
+      ],
+      "sources": [
+        {
+          "title": "Makam Sunan Kalijaga",
+          "publisher": "Dinas Pariwisata Kabupaten Demak",
+          "url": "https://pariwisata.demakkab.go.id/makam-sunan-kalijaga-demak/"
+        },
+        {
+          "title": "Makam Sunan Kalijaga",
+          "publisher": "Pariwisata Provinsi Jawa Tengah",
+          "url": "https://visitjawatengah.jatengprov.go.id/id/destinasi-wisata/makam-sunan-kalijaga"
+        },
+        {
+          "title": "Sejarah Perjalanan Ruhani Sunan Kalijaga",
+          "publisher": "UIN Sunan Kalijaga",
+          "url": "https://digilib.uin-suka.ac.id/id/eprint/52041/1/11120066-BAB%201%2C%20V%2C%20DAFTAR%20PUSTAKA.pdf"
+        },
+        {
+          "title": "Penelusuran Hubungan Kawasan Bersejarah Masjid Agung Demak dengan Masjid Kadilangu",
+          "publisher": "Garuda Kemdiktisaintek",
+          "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/601889"
+        }
+      ]
+    },
+    {
+      "id": "sunan-kudus",
+      "name": "Sunan Kudus",
+      "aliases": "Ja’far Shadiq/Jafar Shodiq; dikenal sebagai Sunan Kudus.",
+      "biography": "Tokoh Wali Songo yang berperan dalam perkembangan Islam di Kudus dan sekitarnya. Sejumlah kajian menyebutnya sebagai putra Sunan Ngudung. Rincian silsilah dan masa hidupnya perlu dibaca sebagai rekonstruksi dari sumber historiografi dan tradisi, bukan data biografi modern yang lengkap.",
+      "history": "Sunan Kudus dikenal melalui pendekatan dakwah kultural yang memperhatikan kondisi masyarakat Kudus yang majemuk. Masjid Al-Aqsha dan Menara Kudus menjadi bukti penting akulturasi unsur arsitektur Islam dan bentuk bangunan lokal pra-Islam. Inskripsi pada mihrab masjid mencantumkan tahun 956 H/1549 M dan nama Qadhi Ja’far Shadiq, yang menjadi salah satu dasar penting dalam pembahasan sejarah kompleks tersebut.",
+      "tombLocation": "Kompleks Makam Sunan Kudus berada di belakang Masjid Al-Aqsha/Menara Kudus, Desa Kauman, Kecamatan Kota, Kabupaten Kudus, Jawa Tengah. Pemkab Kudus menyebut akses kawasan melalui Gang Kauman, Dusun Pejaten, Desa Kauman.",
+      "heritageItems": [
+        {
+          "name": "Masjid Al-Aqsha dan Menara Kudus",
+          "description": "Peninggalan situs paling kuat keterkaitannya. Menara memperlihatkan perpaduan unsur arsitektur lokal dan Islam. Inskripsi mihrab menjadi sumber penting penanggalan pembangunan masjid."
+        },
+        {
+          "name": "Kompleks makam",
+          "description": "Makam Sunan Kudus berada di belakang masjid, dalam satu kawasan bersejarah."
+        },
+        {
+          "name": "Tradisi Dandangan dan tabuh bedug",
+          "description": "Pemerintah Kabupaten Kudus mengaitkan tradisi tabuh bedug menjelang Ramadan dengan warisan budaya yang diteruskan masyarakat. Sebut sebagai tradisi yang diwariskan, bukan klaim bahwa semua bentuk perayaannya berasal persis dari masa Sunan Kudus."
+        },
+        {
+          "name": "Pendekatan dakwah kultural",
+          "description": "Warisan gagasan tentang adaptasi budaya lokal dalam dakwah, yang dibahas dalam penelitian akademik."
+        }
+      ],
+      "historicalNotes": [
+        "Cerita larangan menyembelih sapi dan simbol-simbol Hindu-Buddha populer dalam narasi Sunan Kudus, tetapi detail historisnya harus diberi atribusi tradisi/kajian. Hindari menampilkan legenda sebagai peristiwa yang sudah terbukti oleh sumber sezaman."
+      ],
+      "sources": [
+        {
+          "title": "Makam Sunan Kudus (28 Nov 2024)",
+          "publisher": "Pemkab Kudus",
+          "url": "https://kuduskab.go.id/index.php/80715f88-387c-4125-b602-bb935d28a8e0"
+        },
+        {
+          "title": "Genealogi Petilasan Sunan Kudus",
+          "publisher": "Jurnal Al-Qalam",
+          "url": "https://jurnalalqalam.or.id/index.php/Alqalam/article/view/159"
+        },
+        {
+          "title": "Sunan Ja’far Shadiq dan Toleransinya dalam Islamisasi di Kudus",
+          "publisher": "UIN Sunan Kalijaga",
+          "url": "https://digilib.uin-suka.ac.id/id/eprint/52663/"
+        },
+        {
+          "title": "Strategi Dakwah Sunan Kudus",
+          "publisher": "Jurnal Addin",
+          "url": "https://journal.uinsuku.ac.id/index.php/Addin/article/view/597"
+        },
+        {
+          "title": "Tradisi tabuh beduk Menara Kudus",
+          "publisher": "Diskominfo Kabupaten Kudus",
+          "url": "https://diskominfo.kuduskab.go.id/portal/berita/id/tandai-awal-ramadhan-pj-bupati-kudus-tabuh-beduk-di-menara-kudus"
+        },
+        {
+          "title": "Naskah ringkas untuk panel AR",
+          "publisher": "Lampiran A",
+          "url": null
+        },
+        {
+          "title": "Teks berikut dirancang untuk tampilan awal setelah target potret dikenali. Batasi layar pertama agar tetap terbaca; detail tambahan dapat dibuka melalui tombol “Jelajahi kisah”.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Maulana Malik Ibrahim",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Salah satu tokoh awal penyebaran Islam di Gresik. Tradisi mengenangnya berdakwah melalui perdagangan, pendidikan, dan kepedulian sosial. Makamnya berada di kawasan Gapuro Sukolilo, Gresik.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: kompleks makam dan nisan berinskripsi; kisah dakwah sosial dalam tradisi lokal.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Ampel",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Pendakwah yang membangun pusat pendidikan Islam di Ampeldenta, Surabaya. Namanya lekat dengan Masjid Ampel dan ajaran moral Moh Limo.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: Masjid dan kawasan Ampel, tradisi Moh Limo, serta ingatan tentang jaringan pendidikan.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Giri",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Tokoh dakwah yang membangun pusat pendidikan dan pemerintahan Giri Kedaton di Gresik. Pengaruhnya dikenang melalui jaringan murid dan tradisi seni.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: situs Giri Kedaton, kompleks makam, dan tradisi seni/pendidikan.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Bonang",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Tokoh Wali Songo yang dikenang berdakwah melalui seni, sastra, tembang, dan musik tradisional. Makam yang paling dikenal diziarahi berada di Tuban.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: kompleks makam Tuban dan tradisi seni dakwah yang dikaitkan dengannya.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Drajat",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Pendakwah dari kawasan Lamongan yang dikenang karena ajaran kepedulian sosial dan kesejahteraan masyarakat.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: kompleks makam, Museum Sunan Drajat, koleksi gamelan, serta tradisi tembang dan ajaran sosial.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Gunung Jati",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Ulama sekaligus pemimpin Kesultanan Cirebon yang berperan dalam perkembangan Islam di Jawa bagian barat. Makamnya berada di Gunung Sembung, Cirebon.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: kompleks makam Gunung Sembung dan sejarah Kesultanan Cirebon.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Muria",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Pendakwah yang dikenal menjangkau masyarakat pedalaman di sekitar Gunung Muria. Kompleks makam dan masjidnya berada di Desa Colo, Kudus.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: situs cagar budaya Makam dan Masjid Sunan Muria serta tradisi tembang.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Kalijaga",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Tokoh Wali Songo yang dikenang menggunakan seni dan budaya Jawa sebagai media dakwah. Makam yang paling dikenal berada di Kadilangu, Demak.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: Masjid Kadilangu, tradisi penjamasan pusaka, dan seni dakwah.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sunan Kudus",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "SEJARAH  Pendakwah yang dikenal dengan pendekatan kultural di Kudus. Masjid Al-Aqsha dan Menara Kudus menjadi bukti penting pertemuan unsur arsitektur lokal dan Islam.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "WARISAN  Warisan yang dapat ditelusuri: Menara Kudus, Masjid Al-Aqsha, kompleks makam, dan tradisi Dandangan/tabuh bedug.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Rekomendasi implementasi AR",
+          "publisher": "Lampiran B",
+          "url": null
+        },
+        {
+          "title": "Trigger: satu target gambar (potret) per tokoh. Empat target baru pada ZIP dipetakan sesuai urutan yang dikonfirmasi pengguna: 1 Sunan Gunung Jati, 2 Sunan Muria, 3 Sunan Kalijaga, 4 Sunan Kudus.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Setelah target dikenali, tampilkan overlay 2D bergaya holografik yang mengikuti anchor target: nama tokoh, peran singkat, tombol Biodata, Sejarah, Makam, Peninggalan, dan Sumber.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Jangan membuat panel terlalu padat. Tampilan awal cukup ringkasan 40–60 kata; panel detail dapat di-scroll atau dibuka bertahap.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Gunakan label “Fakta situs”, “Menurut tradisi”, dan “Masih diperdebatkan” untuk membedakan kualitas bukti.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Gunakan MindAR image tracking untuk mengenali gambar target yang didaftarkan. Sistem ini tidak otomatis mengenali semua foto makam atau artefak nyata di lokasi.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sediakan fallback jika kamera tidak tersedia: kartu profil tetap dapat dibuka dari daftar sembilan wali.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Jangan menamai overlay sebagai hologram 3D nyata. Istilah yang tepat untuk fitur ini adalah tampilan AR 2D/holographic-style overlay.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Sebelum produksi: verifikasi resolusi dan kualitas tiap target, siapkan target .mind, uji pencahayaan, jarak kamera, orientasi, dan performa pada ponsel kelas menengah.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Pemetaan file potret yang dikirim",
+          "publisher": "Lampiran C",
+          "url": null
+        },
+        {
+          "title": "Screenshot_20261110_115606.jpg (nama tokoh sesuai konfirmasi pengguna)",
+          "publisher": "1. Sunan Gunung Jati",
+          "url": null
+        },
+        {
+          "title": "Screenshot_20261110_115533.jpg (nama tokoh sesuai konfirmasi pengguna)",
+          "publisher": "2. Sunan Muria",
+          "url": null
+        },
+        {
+          "title": "Screenshot_20261110_115442.jpg (nama tokoh sesuai konfirmasi pengguna)",
+          "publisher": "3. Sunan Kalijaga",
+          "url": null
+        },
+        {
+          "title": "Screenshot_20261110_115505.jpg (nama tokoh sesuai konfirmasi pengguna)",
+          "publisher": "4. Sunan Kudus",
+          "url": null
+        },
+        {
+          "title": "Catatan: empat gambar dalam ZIP berupa ilustrasi potret. Sebelum dipakai sebagai image target, pastikan pengguna memiliki hak penggunaan gambar dan cantumkan kredit/sumber gambar jika diketahui.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Daftar sumber lintas profil",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        },
+        {
+          "title": "Data Cagar Budaya, Makam dan Masjid Sunan Muria",
+          "publisher": "Kementerian Kebudayaan",
+          "url": "https://budaya.data.kemdikbud.go.id/cagarbudaya/objek/KB000349"
+        },
+        {
+          "title": "Makam Sunan Muria",
+          "publisher": "Pemkab Kudus",
+          "url": "https://kuduskab.go.id/index.php/d3f80ded-5789-468f-ba3d-78ac13ed77ea"
+        },
+        {
+          "title": "Ziarah Makam Sunan Gunung Jati",
+          "publisher": "Wakil Presiden RI",
+          "url": "https://wapresri.go.id/ziarah-makam-sunan-gunung-jati/"
+        },
+        {
+          "title": "Buku Seri Sejarah Heritage Cirebon",
+          "publisher": "Bank Indonesia",
+          "url": "https://www.bi.go.id/id/bi-institute/publikasi/Documents/Buku_Seri_Sejarah-Heritage-Cirebon.pdf"
+        },
+        {
+          "title": "Makam Sunan Kalijaga",
+          "publisher": "Dinas Pariwisata Kabupaten Demak",
+          "url": "https://pariwisata.demakkab.go.id/makam-sunan-kalijaga-demak/"
+        },
+        {
+          "title": "Makam Sunan Kalijaga",
+          "publisher": "Pariwisata Provinsi Jawa Tengah",
+          "url": "https://visitjawatengah.jatengprov.go.id/id/destinasi-wisata/makam-sunan-kalijaga"
+        },
+        {
+          "title": "Sejarah Perjalanan Ruhani Sunan Kalijaga",
+          "publisher": "UIN Sunan Kalijaga",
+          "url": "https://digilib.uin-suka.ac.id/id/eprint/52041/1/11120066-BAB%201%2C%20V%2C%20DAFTAR%20PUSTAKA.pdf"
+        },
+        {
+          "title": "Makam Sunan Kudus",
+          "publisher": "Pemkab Kudus",
+          "url": "https://kuduskab.go.id/index.php/80715f88-387c-4125-b602-bb935d28a8e0"
+        },
+        {
+          "title": "Genealogi Petilasan Sunan Kudus",
+          "publisher": "Jurnal Al-Qalam",
+          "url": "https://jurnalalqalam.or.id/index.php/Alqalam/article/view/159"
+        },
+        {
+          "title": "Sunan Ja’far Shadiq dan Toleransinya dalam Islamisasi di Kudus",
+          "publisher": "UIN Sunan Kalijaga",
+          "url": "https://digilib.uin-suka.ac.id/id/eprint/52663/"
+        },
+        {
+          "title": "Strategi Dakwah Sunan Kudus",
+          "publisher": "Jurnal Addin",
+          "url": "https://journal.uinsuku.ac.id/index.php/Addin/article/view/597"
+        },
+        {
+          "title": "Penelusuran Hubungan Kawasan Bersejarah Masjid Agung Demak dengan Masjid Kadilangu",
+          "publisher": "Garuda Kemdiktisaintek",
+          "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/601889"
+        },
+        {
+          "title": "Peranan Sunan Gunung Jati dalam Kesultanan Cirebon 1479–1568",
+          "publisher": "UNY",
+          "url": "https://eprints.uny.ac.id/28478/"
+        },
+        {
+          "title": "Catatan akhir: konten lima tokoh dari dokumen awal masih memerlukan penguatan sitasi primer/akademik per klaim. Dokumen ini layak menjadi draft basis konten dan rancangan implementasi, tetapi bukan pengganti verifikasi sejarah oleh ahli/pengelola situs.",
+          "publisher": "Rujukan dalam dokumen",
+          "url": null
+        }
+      ]
+    }
+  ]
+}

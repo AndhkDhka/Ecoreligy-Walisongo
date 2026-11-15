@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "lint": "eslint",
     "audit:content": "node scripts/audit-content.mjs",
+    "ar:compile-targets": "node scripts/compile-ar-targets.mjs",
     "format": "prettier --write . && eslint --fix",
     "check": "prettier --check ."
   },

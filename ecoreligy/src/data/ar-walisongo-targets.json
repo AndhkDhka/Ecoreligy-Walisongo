@@ -1,0 +1,65 @@
+[
+  {
+    "destinationId": "malik-ibrahim",
+    "name": "Maulana Malik Ibrahim",
+    "sourceFilename": "Maulana Malik Ibrahim.jpg",
+    "portraitAsset": "/assets/ar/portraits/maulana-malik-ibrahim.jpg",
+    "compiledIndex": 0
+  },
+  {
+    "destinationId": "sunan-ampel",
+    "name": "Sunan Ampel",
+    "sourceFilename": "Sunan Ampel.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-ampel.jpg",
+    "compiledIndex": 1
+  },
+  {
+    "destinationId": "sunan-bonang",
+    "name": "Sunan Bonang",
+    "sourceFilename": "Sunan Bonang.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-bonang.jpg",
+    "compiledIndex": 2
+  },
+  {
+    "destinationId": "sunan-drajat",
+    "name": "Sunan Drajat",
+    "sourceFilename": "Sunan Drajat.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-drajat.jpg",
+    "compiledIndex": 3
+  },
+  {
+    "destinationId": "sunan-giri",
+    "name": "Sunan Giri",
+    "sourceFilename": "Sunan Giri.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-giri.jpg",
+    "compiledIndex": 4
+  },
+  {
+    "destinationId": "sunan-gunung-jati",
+    "name": "Sunan Gunung Jati",
+    "sourceFilename": "Sunan Gunung Jati.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-gunung-jati.jpg",
+    "compiledIndex": 5
+  },
+  {
+    "destinationId": "sunan-kalijaga",
+    "name": "Sunan Kalijaga",
+    "sourceFilename": "Sunan Kalijaga.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-kalijaga.jpg",
+    "compiledIndex": 6
+  },
+  {
+    "destinationId": "sunan-kudus",
+    "name": "Sunan Kudus",
+    "sourceFilename": "Sunan Kudus.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-kudus.jpg",
+    "compiledIndex": 7
+  },
+  {
+    "destinationId": "sunan-muria",
+    "name": "Sunan Muria",
+    "sourceFilename": "Sunan Muria.jpg",
+    "portraitAsset": "/assets/ar/portraits/sunan-muria.jpg",
+    "compiledIndex": 8
+  }
+]

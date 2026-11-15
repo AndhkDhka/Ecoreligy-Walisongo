@@ -1,3 +1,5 @@
+import { AR_TARGET_BUNDLE, WALI_SONGO_TARGETS } from '@/data/ar-walisongo'
+
 export type ARExperienceDefinition = {
   id: string
   destinationId: string
@@ -6,22 +8,20 @@ export type ARExperienceDefinition = {
   markerImage: string
   markerTarget: string
   markerStatus: 'ready' | 'pending'
-  sceneStatus: 'interpretive-placeholder' | 'documented-model'
+  sceneStatus: 'panel-overlay' | 'documented-model'
   reconstructionNote: string
   contentStatus: 'source-linked' | 'needs-review'
 }
 
-export const AR_EXPERIENCES: ARExperienceDefinition[] = [
-  {
-    id: 'giri-kedaton-pilot',
-    destinationId: 'sunan-giri',
-    title: 'Giri Kedaton · Pilot',
-    subtitle: 'Image-tracked heritage interpretation',
-    markerImage: '/assets/Document/Makam Sunan Giri.png',
-    markerTarget: '/assets/ar/sunan-giri.mind',
-    markerStatus: 'ready',
-    sceneStatus: 'interpretive-placeholder',
-    reconstructionNote: 'The 3D object is an abstract digital interpretation. It is not a reconstruction of Giri Kedaton or a historical artefact.',
-    contentStatus: 'source-linked',
-  },
-]
+export const AR_EXPERIENCES: ARExperienceDefinition[] = WALI_SONGO_TARGETS.map((target) => ({
+  id: target.destinationId === 'sunan-giri' ? 'giri-kedaton-pilot' : `portrait-${target.destinationId}`,
+  destinationId: target.destinationId,
+  title: target.name,
+  subtitle: 'Portrait image-tracked heritage panel',
+  markerImage: target.portraitAsset,
+  markerTarget: AR_TARGET_BUNDLE,
+  markerStatus: 'ready',
+  sceneStatus: 'panel-overlay',
+  reconstructionNote: 'A source-linked 2D heritage panel is shown. The supplied portrait is an illustration used as a scan target, not a verified historical likeness.',
+  contentStatus: 'source-linked',
+}))

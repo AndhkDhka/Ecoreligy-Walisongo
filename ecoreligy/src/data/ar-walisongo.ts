@@ -1,23 +1,44 @@
 import { DESTINATIONS } from '@/data'
+import targetConfig from '@/data/ar-walisongo-targets.json'
+import sourceContent from '@/data/walisongo-ar-content.json'
 
-/** Prompt order is also the target compiler's stable index order. */
-export const WALI_SONGO_TARGETS = [
-  { destinationId: 'sunan-drajat', portraitAsset: '/assets/ar/portraits/sunan-drajat.jpg', compiledIndex: 0, legacyMindTarget: null },
-  { destinationId: 'sunan-bonang', portraitAsset: '/assets/ar/portraits/sunan-bonang.jpg', compiledIndex: 1, legacyMindTarget: null },
-  { destinationId: 'sunan-giri', portraitAsset: '/assets/ar/portraits/sunan-giri.jpg', compiledIndex: 2, legacyMindTarget: '/assets/ar/sunan-giri.mind' },
-  { destinationId: 'sunan-ampel', portraitAsset: '/assets/ar/portraits/sunan-ampel.jpg', compiledIndex: 3, legacyMindTarget: null },
-  { destinationId: 'malik-ibrahim', portraitAsset: '/assets/ar/portraits/maulana-malik-ibrahim.jpg', compiledIndex: 4, legacyMindTarget: null },
-  { destinationId: 'sunan-gunung-jati', portraitAsset: '/assets/ar/portraits/sunan-gunung-jati.jpg', compiledIndex: 5, legacyMindTarget: null },
-  { destinationId: 'sunan-muria', portraitAsset: '/assets/ar/portraits/sunan-muria.jpg', compiledIndex: 6, legacyMindTarget: null },
-  { destinationId: 'sunan-kalijaga', portraitAsset: '/assets/ar/portraits/sunan-kalijaga.jpg', compiledIndex: 7, legacyMindTarget: null },
-  { destinationId: 'sunan-kudus', portraitAsset: '/assets/ar/portraits/sunan-kudus.jpg', compiledIndex: 8, legacyMindTarget: null },
-] as const
+export const AR_TARGET_BUNDLE = '/assets/ar/walisongo-portraits.mind'
 
-/** AR panels read from the canonical destination records; profile text is not duplicated here. */
-export const WALI_SONGO_AR_PROFILES = WALI_SONGO_TARGETS.flatMap(({ destinationId }) => {
-  const profile = DESTINATIONS.find((item: any) => item.id === destinationId && item.kind === 'walisongo')
-  return profile ? [profile] : []
+/** Single ordered source for portrait assets, profile identity, and MindAR target indices. */
+export const WALI_SONGO_TARGETS = targetConfig
+export type WaliSongoTarget = (typeof WALI_SONGO_TARGETS)[number]
+
+/** AR panels use the canonical destination records and the portrait map above. */
+export const WALI_SONGO_AR_PROFILES = WALI_SONGO_TARGETS.flatMap((target) => {
+  const profile = DESTINATIONS.find((item: any) => item.id === target.destinationId && item.kind === 'walisongo')
+  const source = sourceContent.profiles.find((item) => item.id === target.destinationId)
+  if (!profile || !source) return []
+
+  const englishHistory = ['life', 'context', 'dakwah', 'methods', 'legacy']
+    .flatMap((key) => profile.sections?.[key]?.en ?? [])
+    .join('\n\n')
+  const englishNotes = (profile.variants ?? []).map((note: any) => note.en).filter(Boolean).join('\n\n')
+  const englishHeritage = profile.sections?.legacy?.en ?? []
+  const heritageItems = source.heritageItems.map((item, index) => {
+    const tradition = /tradisi|tembang|warisan dakwah|jaringan pendidikan|pendekatan/i.test(item.name)
+    const collection = /museum|gamelan|bedug|keris|pusaka/i.test(item.name)
+    return {
+      ...item,
+      type: tradition ? { id: 'Tradisi / warisan nonbenda', en: 'Tradition / intangible heritage' } : collection ? { id: 'Koleksi / artefak', en: 'Collection / artefact' } : { id: 'Situs / bangunan', en: 'Site / building' },
+      certainty: tradition ? { id: 'Atribusi tradisi; rincian ada pada keterangan sumber.', en: 'Traditional attribution; see the source note.' } : { id: 'Tidak menyatakan kepemilikan pribadi tokoh.', en: 'No personal ownership by the figure is claimed.' },
+      description: { id: item.description, en: englishHeritage[index] ?? item.description },
+      name: { id: item.name, en: item.name },
+    }
+  })
+  const arContent = {
+    displayName: { id: source.name, en: target.name },
+    aliases: { id: source.aliases, en: profile.titles ?? profile.nameFull ?? target.name },
+    biography: { id: source.biography, en: profile.excerpt?.en ?? source.biography },
+    history: { id: source.history, en: englishHistory || source.history },
+    tombLocation: { id: source.tombLocation, en: profile.locationInfo?.address ?? source.tombLocation },
+    heritageItems,
+    historicalNotes: { id: source.historicalNotes.join('\n\n'), en: englishNotes || source.historicalNotes.join('\n\n') },
+    sources: source.sources,
+  }
+  return [{ ...profile, portrait: target.portraitAsset, targetIndex: target.compiledIndex, arContent }]
 })
-
-/** Index 0 is the sole target in the currently compiled legacy site-image file. */
-export const AR_LEGACY_TARGET_BY_INDEX = ['sunan-giri'] as const
