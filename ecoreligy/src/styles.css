@@ -95,3 +95,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{
 @media(prefers-reduced-motion:reduce){.ar-primary-button,.ar-secondary-button,.ar-stop-button,.ar-icon-button,.ar-more-link{transition:none}.ar-more-link:hover{transform:none}}
 
 
+
+.user-location-marker{border:0!important;background:transparent!important}.user-location-marker span{display:block;width:20px;height:20px;border:3px solid #fff;border-radius:50%;background:#3977d5;box-shadow:0 0 0 5px rgba(57,119,213,.22),0 1px 5px rgba(0,0,0,.45)}

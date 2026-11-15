@@ -24,6 +24,7 @@ import { Route as TrackerRouteImport } from './routes/tracker'
 import { Route as VisitRouteImport } from './routes/visit'
 import { Route as DestinationsIndexRouteImport } from './routes/destinations.index'
 import { Route as DestinationsIdRouteImport } from './routes/destinations.$id'
+import { Route as GuidedIdRouteImport } from './routes/guided.$id'
 import { Route as JourneysIndexRouteImport } from './routes/journeys.index'
 import { Route as JourneysIdRouteImport } from './routes/journeys.$id'
 
@@ -102,6 +103,11 @@ const DestinationsIdRoute = DestinationsIdRouteImport.update({
   path: '/destinations/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const GuidedIdRoute = GuidedIdRouteImport.update({
+  id: '/guided/$id',
+  path: '/guided/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const JourneysIndexRoute = JourneysIndexRouteImport.update({
   id: '/journeys/',
   path: '/journeys/',
@@ -128,6 +134,7 @@ export interface FileRoutesByFullPath {
   '/tracker': typeof TrackerRoute
   '/visit': typeof VisitRoute
   '/destinations/$id': typeof DestinationsIdRoute
+  '/guided/$id': typeof GuidedIdRoute
   '/journeys/$id': typeof JourneysIdRoute
   '/destinations/': typeof DestinationsIndexRoute
   '/journeys/': typeof JourneysIndexRoute
@@ -147,6 +154,7 @@ export interface FileRoutesByTo {
   '/tracker': typeof TrackerRoute
   '/visit': typeof VisitRoute
   '/destinations/$id': typeof DestinationsIdRoute
+  '/guided/$id': typeof GuidedIdRoute
   '/journeys/$id': typeof JourneysIdRoute
   '/destinations': typeof DestinationsIndexRoute
   '/journeys': typeof JourneysIndexRoute
@@ -167,6 +175,7 @@ export interface FileRoutesById {
   '/tracker': typeof TrackerRoute
   '/visit': typeof VisitRoute
   '/destinations/$id': typeof DestinationsIdRoute
+  '/guided/$id': typeof GuidedIdRoute
   '/journeys/$id': typeof JourneysIdRoute
   '/destinations/': typeof DestinationsIndexRoute
   '/journeys/': typeof JourneysIndexRoute
@@ -188,6 +197,7 @@ export interface FileRouteTypes {
     | '/tracker'
     | '/visit'
     | '/destinations/$id'
+    | '/guided/$id'
     | '/journeys/$id'
     | '/destinations/'
     | '/journeys/'
@@ -207,6 +217,7 @@ export interface FileRouteTypes {
     | '/tracker'
     | '/visit'
     | '/destinations/$id'
+    | '/guided/$id'
     | '/journeys/$id'
     | '/destinations'
     | '/journeys'
@@ -226,6 +237,7 @@ export interface FileRouteTypes {
     | '/tracker'
     | '/visit'
     | '/destinations/$id'
+    | '/guided/$id'
     | '/journeys/$id'
     | '/destinations/'
     | '/journeys/'
@@ -246,6 +258,7 @@ export interface RootRouteChildren {
   TrackerRoute: typeof TrackerRoute
   VisitRoute: typeof VisitRoute
   DestinationsIdRoute: typeof DestinationsIdRoute
+  GuidedIdRoute: typeof GuidedIdRoute
   JourneysIdRoute: typeof JourneysIdRoute
   DestinationsIndexRoute: typeof DestinationsIndexRoute
   JourneysIndexRoute: typeof JourneysIndexRoute
@@ -358,6 +371,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DestinationsIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/guided/$id': {
+      id: '/guided/$id'
+      path: '/guided/$id'
+      fullPath: '/guided/$id'
+      preLoaderRoute: typeof GuidedIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/journeys/': {
       id: '/journeys/'
       path: '/journeys'
@@ -390,6 +410,7 @@ const rootRouteChildren: RootRouteChildren = {
   TrackerRoute: TrackerRoute,
   VisitRoute: VisitRoute,
   DestinationsIdRoute: DestinationsIdRoute,
+  GuidedIdRoute: GuidedIdRoute,
   JourneysIdRoute: JourneysIdRoute,
   DestinationsIndexRoute: DestinationsIndexRoute,
   JourneysIndexRoute: JourneysIndexRoute,

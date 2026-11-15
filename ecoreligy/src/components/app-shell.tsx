@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link, Outlet, useNavigate, useRouterState } from '@tanstack/react-router'
-import { Heart, Map, Menu, Moon, ScanLine, Search, ShieldAlert, Sun, X } from 'lucide-react'
+import { Compass, Heart, Map, MapPin, Menu, Moon, ScanLine, Search, ShieldAlert, Sun, X } from 'lucide-react'
 import { DESTINATIONS } from '@/data'
 import { useApp } from '@/lib/app-context'
 import { Badge } from '@/components/ui/badge'
@@ -11,11 +11,9 @@ import { GuideAssistant } from '@/components/guide-assistant'
 import { BrandLogo } from '@/components/brand-logo'
 
 const navItems = [
-  ['/ar', 'AR Experience', 'Pengalaman AR'], ['/culture', 'Cultural Discovery', 'Jelajah Budaya'],
-  ['/destinations', 'Destinations', 'Destinasi'], ['/map', 'Cultural map', 'Peta budaya'],
-  ['/tracker', 'Digital Passport', 'Paspor Digital'], ['/culinary', 'Local food', 'Kuliner'],
-  ['/products', 'Craft & UMKM', 'Kerajinan & UMKM'],
-  ['/visit', 'Visit info', 'Info kunjungan'],
+  ['/', 'Home', 'Beranda'], ['/destinations', 'Destinations', 'Destinasi'],
+  ['/map', 'Cultural map', 'Peta Budaya'], ['/ar', 'AR Navigation', 'Navigasi AR'],
+  ['/visit', 'Visit info', 'Info Kunjungan'],
 ] as const
 
 export function AppShell() {
@@ -77,7 +75,6 @@ export function AppShell() {
           <Button variant="ghost" size="icon" className={`relative ${isHomepage && !heroPassed ? 'hover:bg-white/15' : ''}`} aria-label={t('Open saved favorites', 'Buka destinasi favorit')} onClick={() => setFavoritesOpen(true)}>
             <Heart className="size-4" />{favoriteCount > 0 && <span className="absolute right-0 top-0 flex size-5 items-center justify-center rounded-full bg-accent text-[10px] font-bold text-accent-foreground">{favoriteCount}</span>}
           </Button>
-          <Link to={'/tracker'} search={{ journey: undefined }} className={`hidden size-11 items-center justify-center rounded-full sm:flex ${isHomepage && !heroPassed ? 'hover:bg-white/15' : 'hover:bg-secondary'}`} aria-label={t('Open cultural passport', 'Buka paspor budaya')}><ScanLine className="size-4" /></Link>
           <Button variant="ghost" size="icon" className={`hidden xl:inline-flex ${isHomepage && !heroPassed ? 'hover:bg-white/15' : ''}`} aria-label={t('Emergency information', 'Informasi darurat')} onClick={() => setEmergencyOpen(true)}><ShieldAlert /></Button>
           <Button variant="ghost" size="icon" className={isHomepage && !heroPassed ? 'hover:bg-white/15' : ''} aria-label={theme === 'dark' ? t('Switch to light theme', 'Gunakan tema terang') : t('Switch to dark theme', 'Gunakan tema gelap')} onClick={toggleTheme}>{theme === 'dark' ? <Sun /> : <Moon />}</Button>
           <Button variant="ghost" size="sm" className={`px-3 ${isHomepage && !heroPassed ? 'hover:bg-white/15' : ''}`} aria-label={t('Change language', 'Ganti bahasa')} onClick={() => setLanguage(language === 'id' ? 'en' : 'id')}>{language.toUpperCase()}</Button>
@@ -95,11 +92,10 @@ export function AppShell() {
     <main id="main" key={pathname} className="route-enter pb-20 md:pb-0"><Outlet /></main>
 
     <nav className="mobile-action-bar fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/95 pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_30px_rgba(25,34,28,.08)] backdrop-blur-xl md:hidden" aria-label={t('Quick actions', 'Aksi cepat')}>
-      <div className="page-shell grid grid-cols-4 gap-1 py-2">
-        <Link to="/map" className="flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-medium text-muted-foreground hover:bg-secondary hover:text-primary"><Map className="size-4" />{t('Map', 'Peta')}</Link>
-        <Link to="/ar" className="flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-semibold text-primary hover:bg-secondary"><ScanLine className="size-4" />{t('AR', 'AR')}</Link>
-        <button type="button" onClick={() => setFavoritesOpen(true)} className="relative flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-medium text-muted-foreground hover:bg-secondary hover:text-primary"><Heart className="size-4" />{t('Saved', 'Favorit')}{favoriteCount > 0 && <span className="absolute right-[calc(50%-18px)] top-0 flex size-4 items-center justify-center rounded-full bg-accent text-[9px] font-bold text-accent-foreground">{favoriteCount}</span>}</button>
-        <button type="button" onClick={() => setSearchOpen(true)} className="flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-medium text-muted-foreground hover:bg-secondary hover:text-primary"><Search className="size-4" />{t('Search', 'Cari')}</button>
+      <div className="page-shell grid grid-cols-5 gap-1 py-2">
+        {navItems.map(([to, en, id]) => <Link key={to} to={to as never} className="flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-medium text-muted-foreground hover:bg-secondary hover:text-primary" activeProps={{ className: 'flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[10px] font-semibold text-primary' }}>
+          {to === '/' ? <BrandLogo size="sm" symbolOnly /> : to === '/map' ? <Map className="size-4" /> : to === '/ar' ? <ScanLine className="size-4" /> : to === '/destinations' ? <Compass className="size-4" /> : <MapPin className="size-4" />}{t(en, id)}
+        </Link>)}
       </div>
     </nav>
 
@@ -107,7 +103,7 @@ export function AppShell() {
       <div className="page-shell grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div><Link to="/" className="brand-footer-link inline-flex rounded-sm" aria-label="EcoReligi Wali Songo home"><BrandLogo size="lg" /></Link><p className="mt-4 max-w-sm text-sm leading-6 text-white/70">{t('Explore Wali Songo heritage, local traditions, and the living cultural landscapes of Java.', 'Jelajahi warisan Wali Songo, tradisi lokal, dan bentang budaya Jawa yang terus hidup.')}</p></div>
         <div><p className="text-xs font-bold uppercase tracking-[.18em] text-[#C6A76B]">Explore</p><div className="mt-4 grid gap-3 text-sm text-white/75">{navItems.slice(0, 4).map(([to, en, id]) => <Link key={to} to={to as never} className="hover:text-white">{t(en, id)}</Link>)}</div></div>
-        <div><p className="text-xs font-bold uppercase tracking-[.18em] text-[#C6A76B]">{t('Make it meaningful', 'Jelajah bermakna')}</p><div className="mt-4 grid gap-3 text-sm text-white/75"><Link to={'/ar'}>{t('AR Heritage Experience', 'Pengalaman AR Warisan')}</Link><Link to={'/booking'}>{t('Ask about a visit', 'Tanyakan kunjungan')}</Link><p>© 2026 EcoReligi Wali Songo</p></div></div>
+        <div><p className="text-xs font-bold uppercase tracking-[.18em] text-[#C6A76B]">{t('Make it meaningful', 'Jelajah bermakna')}</p><div className="mt-4 grid gap-3 text-sm text-white/75"><Link to={'/ar'}>{t('AR Heritage Experience', 'Pengalaman AR Warisan')}</Link><Link to={'/visit'}>{t('Visit information', 'Info kunjungan')}</Link><p>© 2026 EcoReligi Wali Songo</p></div></div>
       </div>
     </footer>
     <div className="mobile-assistant-offset"><GuideAssistant /></div>
@@ -132,7 +128,7 @@ export function AppShell() {
         <div className="space-y-2">
           {Object.entries(favorites).flatMap(([type, group]) => Object.entries(group).map(([id, meta]) => {
             const title = String(meta.title || id)
-            const to = type === 'destination' ? `/destinations/${id}` : type === 'journey' ? `/journeys/${id}` : type === 'culinary' ? '/culinary' : '/products'
+            const to = type === 'destination' ? `/destinations/${id}` : type === 'journey' ? `/journeys/${id}` : '/destinations'
             return <button key={`${type}-${id}`} onClick={() => { setFavoritesOpen(false); go(to) }} className="flex min-h-12 w-full items-center justify-between rounded-xl px-3 text-left text-sm hover:bg-secondary"><span>{title}</span><span className="text-xs text-muted-foreground">{type}</span></button>
           }))}
           {favoriteCount === 0 && <p className="rounded-xl bg-secondary/60 p-4 text-sm text-muted-foreground">{t('Save a place with the heart button and it will appear here.', 'Simpan situs dengan ikon hati untuk melihatnya di sini.')}</p>}
